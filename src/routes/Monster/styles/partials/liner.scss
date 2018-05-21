@@ -1,0 +1,143 @@
+.case-roll{
+  &_liner{
+    width: 202px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 229px;
+    z-index: 3;
+    transition-property: all;
+    transition-timing-function: ease;
+    opacity: 0;
+    visibility: visible;
+    pointer-events: none;
+    .ragnarok &{
+      width: 156px;
+    }
+    > div{
+      position: absolute;
+      background-image: url('../assets/linerBorder.png');
+      background-color: #610000;
+      &:nth-child(1),
+      &:nth-child(2){
+        width: 100%;
+        height: 5px;
+        left: 0;
+      }
+      &:nth-child(1){
+        top: 0;
+      }
+      &:nth-child(2){
+        bottom: 0;
+      }
+      &:nth-child(3),
+      &:nth-child(4){
+        width: 445px;
+        height: 5px;
+      }
+      &:nth-child(3){
+        bottom: 0;
+        left: 0;
+        transform-origin: left top;
+        transform: rotate(-90deg);
+      }
+      &:nth-child(4){
+        top: 0;
+        right: 0;
+        transform-origin: right bottom;
+        transform: rotate(-90deg);
+      }
+    }
+    &-pos1{
+      width: calc(100% - 200px);
+      height: 150px;
+      opacity: 1;
+      right: 200px;
+      >div>div{
+        border-radius: 20px;
+        background: red;
+        position: absolute;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      >div:nth-child(1)>div,
+      >div:nth-child(2)>div{
+        width: 50px;
+        height: 5px;
+        top: 0;
+      }
+      >div:nth-child(3)>div,
+      >div:nth-child(4)>div{
+        width: 5px;
+        height: 50px;
+        top: -22px;
+      }
+      >div:nth-child(1)>div{
+        animation-name: linerNlo;
+      }
+      >div:nth-child(2)>div{
+        animation-name: linerNlo2;
+      }
+      >div:nth-child(3)>div{
+        animation-name: linerNlo3;
+      }
+      >div:nth-child(4)>div{
+        animation-name: linerNlo4;
+      }
+      @keyframes linerNlo{
+        0%{transform: translateX(-50px)}
+        100%{transform: translateX(772px)}
+      }
+      @keyframes linerNlo2{
+        0%{transform: translateX(772px)}
+        100%{transform: translateX(-50px)}
+      }
+      @keyframes linerNlo3{
+        0%{transform: translateX(-50px) rotate(90deg)}
+        100%{transform: translateX(445px) rotate(90deg)}
+      }
+      @keyframes linerNlo4{
+        0%{transform: translateX(445px) rotate(90deg)}
+        100%{transform: translateX(-50px) rotate(90deg)}
+      }
+    }
+    @at-root body.page-lottery-product-lottery-product-monster-192 &-pos1{
+      width: calc(100% - 150px);
+      right: 150px;
+    }
+    &-pos2{
+      transform: translateY(150px);
+    }
+    &-pos3{
+      transform: translateY(300px);
+    }
+    &-posFinish{
+      transform: translateY(0) !important;
+      height: 100% !important;
+      animation-name: linerScale;
+      animation-duration: 2s;
+    }
+    @keyframes linerScale{
+      0%{transform: scale(1)}
+      50%{transform: scale(1.05)}
+      100%{transform: scale(1)}
+    }
+  }
+  &-open &_liner{
+    opacity: 1;
+  }
+}
+
+.ragnarok {
+  .case-roll{
+    &_liner{
+      >div {
+        &:nth-child(3),
+        &:nth-child(4){
+          width: 503px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.vip-club{
+  background:{
+    color: $bg__color_main;
+    image: url('/assets/images/bg_vip.png');
+    position: 80% 80%;
+    repeat: no-repeat;
+  }
+  &__heading{
+    margin: 20px 0;
+    &_gold{
+      color: $text__color_special;
+    }
+  }
+  &__check{
+    
+    margin-bottom: 10px;
+    &-list{
+      width: 50%;
+    }
+  }
+  &__btn{
+    margin: 20px 0;
+    width: 20%;
+    &_disabled{
+      color: $text__color_border;
+      &:hover{
+        color: $text__color_border;
+      }
+    }
+  }
+  &__text{
+    width: 50%;
+  }
+}

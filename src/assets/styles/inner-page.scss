@@ -1,0 +1,100 @@
+.inner-page{
+  
+  position: relative;
+  z-index: 0;
+  padding-right: 150px;
+  max-width: ($width_max - 150px);
+  &__header{
+    @include flex(center, flex-start, row);
+    position: relative;
+    z-index: 2;
+    left: 1px;
+    bottom: -1px;
+    border-bottom: none;
+    padding: 10px 20px;
+    width: calc(100% - 43px);
+    height: 30px;
+    &_content{
+      margin-bottom: 20px;
+      border:{
+        left: none;
+        right: none;
+        bottom: 1px solid $border__color_main;
+      }
+    }
+    .heading{
+      position: relative;
+      width: 236px;
+      margin-right: 20px;
+    }
+  }
+  &__container{
+    @include flex(flex-start, flex-start, row); 
+  }
+  &__profile{
+    flex-shrink: 0;
+    z-index: 1;
+    right: -1px;
+    border-top-left-radius: 0;
+    border:{
+      right: none;
+      top-right-radius: 0;
+      bottom-right-radius: 0;
+    }
+  }
+  &__content{
+    flex-grow: 1;
+  }
+  &__icon{
+    position: absolute;
+    left: 115px;
+    top: -3px;
+    width: 28px;
+    height: 26px;
+    transform: scale(1.4);
+    &-elem{
+      stroke: $border__color_main;
+    }
+  }
+  &__action{
+    @include flex(center, flex-start, row);
+    margin-left: auto;
+    cursor: pointer;
+    &-text{
+      transition: all .2s ease;      
+      margin-right: 5px;
+      font-size: $text__size_s;
+    }
+    &:hover{
+      color: $text__color_important;
+      .refresh-icon__elem,
+      .back-icon__elem{
+        stroke: $border__color_hover-bright;
+      }
+    }
+  }
+  &__filters{
+    @include flex(stretch, center, row);   
+    &-item{
+      margin-right: 20px;
+      color: $text__color_border-hover;
+      cursor: pointer;      
+      &_active{
+        color: $text__color_important;
+      }
+    } 
+  }
+  .heading_lvl_2 {
+    font-size: $text__size_s;
+    line-height: 46px;
+    text-transform: uppercase;
+    display: block;
+    border-bottom: 1px solid $border__color_bardown;
+    margin-bottom: 16px;
+  }
+  .heading_lvl_2:after {
+    content: '';
+    display: block;
+    border-top: 1px solid $border__color_bartop;
+  }
+}

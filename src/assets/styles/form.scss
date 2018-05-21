@@ -1,0 +1,121 @@
+.form{
+  font-size: $text__size_s;
+  &__fieldset{
+    position: relative;
+    border: none;
+  }
+  &__input{
+    background-color: $bg__color_main;
+    color: $text__color_important;
+    text-align: center;
+  }
+  &__submit{
+    padding:{
+      left: 15px;
+      top: 7px;
+      bottom: 7px;
+    }
+    background-color: $bg__color_main;
+    color: $text__color_main;
+  }
+  &__message{
+    margin-left: 20px;
+    font-size: $text__size_s;
+    color: $text__color_border-hover;
+  }
+  &__checkbox{
+    transition: all .2s ease;
+    flex-shrink: 0;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    &_checked{
+      &::after{
+        transition: all .2s ease;    
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 4px;
+        transform: rotate(-47deg);
+        width: 17px;
+        height: 9px;
+        border: {
+          left: 1px solid $border__color_hover-bright;
+          bottom: 1px solid $border__color_hover-bright;
+        }
+      }
+    }
+    &:hover{
+      border-color: $border__color_hover;
+    }
+  }
+
+  &_type{
+    &_confirm-data{
+      margin: 24px 0;
+      margin-left: auto;
+      padding-left: 70px;
+      max-width: $form__size_data;
+      .form{
+        &__fieldset{
+          margin-top: 12px;
+        }
+        &__label-text{
+          position: absolute;
+          left: -70px;
+          top: 12px;
+          white-space: nowrap;
+        }
+        &__input{
+          padding: 7px;
+          width: $form-input__size_l;
+        }
+      }
+    }
+    &_pay{
+      margin: 24px 0;
+      font-size: $text__size_l;
+      .form{
+        &__fieldset{
+          @include flex(stretch, space-between,row);
+        }
+        &__label{
+          @include flex(stretch, space-around, column);
+          flex-grow: 1;
+          &-text{
+            margin-bottom: 10px;
+          }
+        }
+        &__input{
+          padding: 5px;
+          height: 45px;
+          font-size: $text__size_max;
+          margin-right: 15px;
+          &_email{
+            width: 200px;
+            height: 20px;
+            font-size: $text__size_m;
+          }
+        }
+      }
+    }
+    &_trade-url{
+      width: 100%;
+      .form{
+        &__input{
+          width: 100%;
+          height: 50px;
+        }
+        &__btn{
+          background-color: #ffbe1d;
+          margin:{
+            left: auto;
+            top: 20px;
+          }
+          width: 160px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}

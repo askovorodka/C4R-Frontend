@@ -1,0 +1,10 @@
+.home-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  &__container {
+    max-width: 1200px;
+  }
+}

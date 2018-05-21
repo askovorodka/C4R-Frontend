@@ -1,0 +1,96 @@
+.login__pop {
+  justify-content: space-around;
+  padding: 25px 60px 48px;
+  width: 880px;
+  height: 130px;
+  max-width: 100%;
+  position: absolute;
+  top: 221px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 30;
+  line-height: 1px;
+  background-color: #16181f;
+  background-image: url('img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    background-image: url('img/icons.png');
+    background-repeat: no-repeat;
+    width: 146px;
+    height: 15px;
+    bottom: -5px;
+    background-position: 0 -1641px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    background-image: url('img/icons.png');
+    background-repeat: no-repeat;
+    width: 146px;
+    height: 15px;
+    top: -3px;
+    background-position: 0 -1661px;
+  }
+
+  &__head {
+    display: flex;
+    top: 100px;
+    box-sizing: border-box;
+    padding-bottom: 42px;
+    &__title {
+      width: calc(100% - 50px);
+      text-align: center;
+      line-height: 45px;
+      color: #fff;
+      font-family: "Avenir Next W10 Medium", sans-serif, sans-serif;
+      letter-spacing: 2px;
+      @media all and (min-width: 1100px) {
+        width: calc(100% - 66px);
+        line-height: 65px;
+        font-size: 22px;
+        font-weight: 500;
+        padding-left: 30px;
+      }
+    }
+    &__close {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 1px 5px;
+      width: 47px;
+      height: 47px;
+      text-align: center;
+      font-size: 30px;
+      color: #fff;
+      cursor: pointer;
+      @media all and (min-width: 1100px) {
+        width: 66px;
+        height: 66px;
+        line-height: 66px;
+        font-size: 40px;
+      }
+    }
+  }
+
+  &__btns {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+
+}

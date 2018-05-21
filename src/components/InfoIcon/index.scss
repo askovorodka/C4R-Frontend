@@ -1,0 +1,20 @@
+.info-icon {
+  padding: 0;
+  background-color: transparent;
+  &__svg {
+    width: 30px;
+    height: 40px;
+  }
+  &__elem {
+    fill: transparent;
+    stroke: #ffbe1d;
+    transform: translate(8px, 8px) scale(.9);
+    transition: all .2s ease;
+  }
+  &:hover,
+  &_active {
+    .info-icon__elem {
+      fill: #ffbe1d;    
+    }
+  }
+}

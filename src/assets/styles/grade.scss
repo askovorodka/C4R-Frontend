@@ -1,0 +1,27 @@
+.grade{
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 9px;
+  left: 12px;
+  &__inner{
+    stroke: $border__color_main;
+    stroke-width: 1px;
+    fill: $bg__color_main;
+  }
+  &__outer{
+    stroke: $border__color_main;
+    stroke-width: 1px;
+    fill: $bg__color_main;
+  }
+  &__lvl{
+    stroke: $border__color_main;
+    stroke-width: 1px;
+    fill: $bg__color_main;
+    &_type{
+      &_red{
+        stroke: red;
+      }
+    }
+  }
+}

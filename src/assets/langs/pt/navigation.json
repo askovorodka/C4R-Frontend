@@ -1,0 +1,24 @@
+{
+  "NAV": {
+    "ABOUT": "Sobre",
+    "COMMUNITY": "Community",
+    "VIP_CLUB": "VIP Club",
+    "INVENTORY": "Inventário",
+    "HELP": "Ajuda",
+    "PROFILE": "Perfil",
+    "TRADE_URL": "Endereço de troca",
+    "LOGOUT": "Sair",
+    "TERMS_AND_CONDITIONS": "Termos e Condições",
+    "HOW_TO_PAY": "Como efetuar o pagamento",
+    "POLICY": "Política de Privacidade",
+    "USER_REFUNDS": "Reembolso",
+    "FAQ": "FAQ",
+    "USER_AGREEMENT": "Acordo do usuário",
+    "REFERRAL": "indicação"
+  },
+  "TABS": {
+    "RECENT_DROPS": "Últimos drops",
+    "TOP_DROPS": "Principais drops",
+    "REVIEWS": "Comentários"
+  }
+}

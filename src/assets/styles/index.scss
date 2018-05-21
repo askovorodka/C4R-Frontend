@@ -1,0 +1,41 @@
+/*base*/
+@import './normalize.scss';
+@import './variables.scss';
+@import './mixins.scss';
+@import './root-page.scss';
+
+/*elements*/
+@import './switcher.scss';
+@import './toasts.scss';
+@import './slider.scss';
+@import './grade.scss';
+@import './currency.scss';
+@import './form.scss';
+@import './back-icon.scss';
+@import './select.scss';
+@import './paginante.scss';
+@import './slide-switcher.scss';
+@import './visibility-hidden.scss';
+@import './quest-item.scss';
+@import './user-image.scss';
+
+/*sections*/
+@import './content.scss';
+@import './social-accounts.scss';
+@import './achievement.scss';
+@import './profile-settings.scss';
+@import './vip-club.scss';
+@import './messages.scss';
+@import './invite.scss';
+@import './quests.scss';
+@import './secret-code.scss';
+@import './social-accounts.scss';
+@import './personal-info.scss';
+@import './user-card.scss';
+
+/*pages*/
+@import './inner-page.scss';
+
+/*fonts*/
+@import './social.css';
+@import './font.scss';

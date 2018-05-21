@@ -1,0 +1,16 @@
+{
+  "WILL_PAY": "Płacę",
+  "WILL_GET": "Otrzymuję",
+  "METHODS_LIST": "Możesz dodać saldo przy użyciu",
+  "USED_COUPON": "Aktywowany kupon",
+  "SELECT_AMOUNT": "Wybierz kwotę",
+  "ADD_FUNDS": "dodaj środków",
+  "PLEASE_CONFIRM_AGREEMENT": "Zaakceptuj Umowę użytkownika oraz Politykę prywatności",
+  "COUPON_ACTIVATION": "Aktywacja kuponu",
+  "USE_CODE": "Aktywuj KUPON",
+  "PAY_WITH_SKINS": "DODAJ SKÓRKI",
+  "ENTER_COUPON_CODE": "Wpisz kod kuponu",
+  "APPLY": "Zastosuj",
+  "HAVE_READ_AND_ACCEPT": "Zapoznałem się z <a href='https://cases4real.com/tos' target='_blank'>Warunkami świadczenia</a> usług i je akceptuję",
+  "FOLLOW_PAYMENT": "Zapłać gotówką"
+}

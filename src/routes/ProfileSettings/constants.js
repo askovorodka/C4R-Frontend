@@ -1,0 +1,8 @@
+export const SET_PROFILE = 'SET_PROFILE'
+export const LOGOUT = 'LOGOUT'
+export const SET_AVATAR_IMAGE = 'SET_AVATAR_IMAGE'
+export const SELL_DROPS = 'SELL_DROPS'
+export const TAKE_DROPS = 'TAKE_DROPS'
+export const OPEN_USER_MENU = 'OPEN_USER_MENU'
+export const CLOSE_USER_MENU = 'CLOSE_USER_MENU'
+export const UPDATE_PROFILE = 'UPDATE_PROFILE'

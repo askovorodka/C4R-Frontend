@@ -1,0 +1,139 @@
+@import '~react-redux-toastr/src/styles/index';
+
+.redux-toastr {
+  .toastr {
+    height: 100px;
+  }
+}
+
+.trade-url {
+  width: 1200px;
+  font-family: "Avenir Next W10 Medium", sans-serif, sans-serif;
+  &__header {
+    position: relative;
+    font-size: 18px;
+    margin: {
+      bottom: 20px;
+    }
+    &_text {
+      font-weight: 100;
+      letter-spacing: 1px;
+      padding: {
+        top: 20px;
+        bottom: 20px;
+      }
+      text-align: center;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #b0b2c1;
+    font-size: medium;
+    padding-top: 10px;
+    padding-left: 172px;
+    &__head {
+      font-size: 18px;
+      padding-bottom: 25px;
+    }
+  }
+}
+
+.paragraph {
+  font-size: 14px;
+  padding-bottom: 15px;
+  max-width: 800px;
+  &_image {
+    position: relative;
+    left: 56px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  &__head {
+    padding-bottom: 15px;
+  }
+  &_text {
+  }
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+  width: 65%;
+  text-align: center;
+  font-weight: 100;
+  &__input {
+    width: 704px;
+    height: 40px;
+    background-color: #1a1b27;
+    color: #ffbc17;
+    text-align: center;
+    border-bottom: 1px solid #3e3e44;
+  }
+  &__btn {
+    background-color: #ffbe1d;
+    margin: {
+      top: 25px;
+      bottom: 25px;
+    }
+    width: 267px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    &_confirm {
+      display: flex;
+      align-items: center;
+      padding-left: 18px;
+      background-color: #ffbe1d;
+      margin: {
+        top: 25px;
+        bottom: 25px;
+      }
+      width: 345px;
+      height: 55px;
+      font-size: 18px;
+      font-weight: 100;
+    }
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+}
+
+.box-decor {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(43, 43, 50, 0.7);
+  width: 1200px;
+  height: 301px;
+  &__text {
+    font-size: 14px;
+    color: #b0b2c1;
+    font-weight: 100;
+    &_warning {
+      font-size: 14px;
+      font-weight: 100;
+      line-height: 18px;
+      max-width: 800px;
+      color: #cc5959;
+      text-align: center;
+    }
+  }
+  &::before {
+    padding-bottom: 10px;
+    content: url(/assets/images/heading.png);
+    margin-top: -7px;
+  }
+  &::after {
+    content: url(/assets/images/heading.png);
+    transform: rotate(180deg);
+    margin-bottom: -8px;
+    padding-bottom: 22px;
+  }
+}

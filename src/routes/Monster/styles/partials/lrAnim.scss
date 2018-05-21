@@ -1,0 +1,241 @@
+.case-roll {
+  &_l-anim,
+  &_r-anim {
+    width: 59px;
+    height: 454px;
+    position: absolute;
+    top: 50%;
+    > div:first-child {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      z-index: 2;
+      background-image: url('../assets/bg_level.png');
+    }
+    > div:last-child {
+      width: 60%;
+      height: 80%;
+      overflow: hidden;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+
+      > div:first-child {
+        width: 259px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url('../assets/anim_bg_base.jpg');
+        animation: animBgBase 1s steps(7, end) infinite;
+      }
+      @keyframes animBgBase {
+        to {
+          transform: translateX(-259px)
+        }
+      }
+      > div:last-child {
+        width: 100%;
+        height: 100%;
+        transform: translateY(100%);
+        position: absolute;
+        overflow: hidden;
+        bottom: 0;
+        left: 0;
+        div {
+          width: 1739px;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          animation: animBgActive 3s steps(47, end) infinite;
+        }
+        @keyframes animBgActive {
+          to {
+            transform: translateX(-1739px)
+          }
+        }
+      }
+    }
+  }
+  &-open &_l-anim,
+  &-open &_r-anim {
+    > div:last-child div {
+      transition: all 0.1s ease;
+    }
+  }
+  &_l-anim {
+    left: 0;
+    transform: translate(-100%, -50%);
+    > div:first-child {
+      transform: scaleX(-1);
+    }
+    > div:last-child {
+      right: 0;
+    }
+  }
+  &_r-anim {
+    right: 0;
+    transform: translate(100%, -50%);
+    > div:last-child {
+      left: 0;
+    }
+  }
+
+}
+
+.chtilhu,
+body.page-lottery-product-lottery-product-monster-193 {
+  .case-roll_l-anim > div:last-child > div:last-child div, .case-roll_r-anim > div:last-child > div:last-child div {
+    background: url(../assets/anim_bg_active.jpg) center bottom;
+  }
+}
+
+.snake {
+  .case-roll {
+    &_l-anim,
+    &_r-anim {
+      width: 103px;
+      height: 366px;
+      > div:first-child {
+        background-image: url('../assets/bg_level-snake.png');
+      }
+      > div:last-child {
+        width: 30px;
+        top: 54%;
+        > div:last-child {
+          width: 30px;
+          height: 275px;
+          div {
+            width: 1410px;
+            background: url('../assets/animSnake_bg_active.jpg') center bottom;
+            animation: animBgSnakeActive 3s steps(47, end) infinite;
+          }
+          @keyframes animBgSnakeActive {
+            to {
+              transform: translateX(-1410px)
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.ragnarok {
+  .case-roll {
+    &_l-anim,
+    &_r-anim {
+      width: 90px;
+      > div:first-child {
+        background-image: none;
+      }
+      > div:last-child {
+        top: 0;
+        transform: none;
+        width: 100%;
+        height: 330px;
+
+        > div:first-child {
+          background: none;
+        }
+        > div:last-child {
+          div {
+            width: 2256px;
+            height: 320px;
+            background-image: url('../assets/anim_bg_active_rag.jpg');
+            animation: animBgActive_rag 2.6s steps(47, end) infinite;
+          }
+          @keyframes animBgActive_rag {
+            to {
+              transform: translateX(-2209px)
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.scorpion {
+  .case-roll {
+    &_l-anim,
+    &_r-anim {
+      > div:first-child {
+        background-image: none;
+      }
+      > div:last-child {
+        > div:last-child {
+          div {
+            background-image: url('../assets/animScorp_bg_active.jpg');
+            width: 3337px;
+            height: 330px;
+            animation: animBgActive_scorp 3.6s steps(47, end) infinite;
+            @keyframes animBgActive_scorp {
+              to {
+                transform: translateX(-3337px)
+              }
+            }
+          }
+        }
+      }
+    }
+    &_l-anim {
+      > div:last-child {
+        width: 115%;
+        height: 55%;
+        top: 59%;
+        > div:first-child {
+          width: 400px;
+        }
+        > div:last-child {
+          height: 240px;
+          left: 17px;
+        }
+      }
+    }
+    &_r-anim {
+      > div:last-child {
+        height: 65%;
+        width: 70%;
+      }
+    }
+  }
+}
+
+.case-roll {
+  &_r-anim {
+    width: 46px;
+    height: 392px;
+    top: 196px;
+    right: 230px;
+    > div:first-child {
+      background-image: url('../assets/bg_level-vampire.png');
+    }
+    > div:last-child {
+      width: 43px;
+      height: 390px;
+      > div:first-child {
+        width: 281px;
+        height: 390px;
+        background: url('../assets/anim_bg_base.jpg');
+      }
+      > div:last-child {
+        width: 43px;
+        height: 390px;
+        div {
+          width: 1964px;
+          height: 390px;
+          background: url('../assets/animVampire_bg_active.jpg') center top;
+          animation: animBgVampireActive 4s steps(47, end) infinite;
+        }
+        @keyframes animBgVampireActive {
+          to {
+            transform: translateX(-1964px)
+          }
+        }
+      }
+    }
+  }
+}

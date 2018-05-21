@@ -1,0 +1,75 @@
+.login-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+  &__user-image {
+    border-radius: 50%;
+  }
+  &__menu-icon {
+    transition: all .3s ease;
+    position: absolute;
+    right: 1px;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+  }
+  &__profile {
+    border-radius: 50%;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    overflow: hidden;
+    &-menu {
+      transition: all .3s ease;
+      position: absolute;
+      right: 0;
+      top: 60px;
+      max-height: 0;
+      background-color: rgb(50,50,61);      
+      overflow: hidden;
+      .nav__list {
+        flex-direction: column;
+      }
+    }
+    &:after {
+      position: absolute;
+      right: 6px;
+      bottom: 7px;
+      content: url(/assets/images/login-form__menu-blink.png);
+      width: 10px;
+      height: 10px;
+      transform-origin: 50% 70%;
+      animation: {
+        name: login-form__menu-blink;
+        duration: 3s;
+        timing-function: cubic-bezier(0.64,0.45,0.58,0.74);
+        iteration-count: infinite;
+      }
+      @keyframes login-form__menu-blink {
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    }
+    &_opened {
+      .login-form__menu-icon {
+        transform: rotate(180deg);
+      }
+      &+.login-form__profile-menu {
+        max-height: 700px;
+      }
+    }
+    &:active {
+      overflow: hidden;
+    }
+    &:focus {
+      overflow: hidden;
+    }
+  }
+  &__price {
+    margin: 12px;
+    font-size: 21px;
+    color: #fff;
+  }
+}

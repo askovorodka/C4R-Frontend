@@ -1,0 +1,56 @@
+.container-header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  &::after {
+    content: url(/assets/images/heading.png);
+    position: absolute;
+    left: 85px;
+    top: -5px;
+  }
+  &__heading {
+    position: relative;
+    padding: 0 20px;
+    min-width: 180px;
+    line-height: 47px;
+    background-color: #21222d;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #b0b2c1;
+  }
+  &__info-icon {
+    position: absolute;
+    right: -16px;
+    top: 0px;
+  }
+  .info-icon {
+    border: none;
+    position: absolute;
+  }
+}
+.box-category-triangle {
+  position: absolute;
+  top: 0;
+  width: 55px;
+  height: 41px;
+  &_left {
+    left: -55px;
+  }
+  &_right {
+    right: -55px;
+    transform: rotateY(180deg);
+  }
+  &__elem {
+    fill: #21222d;
+  }
+}
+
+.box-category_type_season {
+  .container-header__title {
+    position: relative;
+    left: -15px;
+  }
+}

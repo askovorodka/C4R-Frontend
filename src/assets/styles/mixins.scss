@@ -1,0 +1,28 @@
+@mixin flex ($at:stretch, $jc: space-between,  $f-dir: row){
+  display: flex;
+  align-items: $at;
+  justify-content: $jc;
+  flex-direction: $f-dir;
+}
+
+@mixin transition ($props: all, $time: 0.3s, $func: ease){
+  transition: $props $time $func;
+}
+
+@mixin liveDrop ($color) {
+  color: $color;
+  background: 
+  radial-gradient(closest-side, transparentize($color, .5), transparent 70%);
+  background: {
+    position: -15px -30px;
+    size: 135% 210%;
+    repeat: no-repeat;
+  }
+}
+
+@mixin placeholder ($color) {
+  ::-webkit-input-placeholder {color: $color}
+  :-moz-placeholder           {color: $color}
+  ::-moz-placeholder          {color: $color}
+  :-ms-input-placeholder      {color: $color}
+}

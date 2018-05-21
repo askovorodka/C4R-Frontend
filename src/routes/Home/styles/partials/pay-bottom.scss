@@ -1,0 +1,11 @@
+.pay-bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  &__text {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #ecdde0;
+  }
+}

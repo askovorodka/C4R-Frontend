@@ -1,0 +1,19 @@
+.tabs {
+  display: flex;
+  &__item{
+    border-top: 1px solid #383943;    
+    background-color: #21232e;
+    color: #ffffff;
+    font-family: Avenir, Roboto, sans-sefif;
+    font-size: 12px;
+    &_active{
+      border-top: 1px solid #ffdb80;
+      background-color: #ffbe1d;
+      color: #1a1b27;
+    }
+    &:hover {
+      border-top: 1px solid #ffdb80;
+      background-color: #ffbe1d;
+    }
+  }  
+}

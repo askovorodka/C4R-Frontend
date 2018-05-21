@@ -1,0 +1,139 @@
+.rank-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./img/background.jpg');
+  background-repeat: no-repeat;
+  z-index: 99999999;
+  font-family: "Avenir Next W10 Medium", sans-serif, sans-serif;
+  background-color: #1a1b27;
+
+  &__head {
+    width: calc(100% - 66px);
+    padding-top: 40px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 100px;
+    &__close-btn {
+      position: absolute;
+      width: 66px;
+      right: 0;
+      top: 0;
+      padding: 1px 5px;
+      cursor: pointer;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    &__experience {
+      position: absolute;
+      top: 0;
+      width: 500px;
+      height: 500px;
+      stroke-width: 6;
+      stroke-miterlimit: 10;
+      stroke-dasharray: 1553, 1555;
+      fill: none;
+      &_bg {
+        stroke: #0b091c;
+      }
+      &_fill {
+        stroke: #ffbe1d;
+        &_animate {
+          stroke: #ffbe1d;
+          animation-name: add-experience;
+          animation-duration: 8s;
+          animation-fill-mode: forwards;
+          animation-timing-function: linear;
+        }
+      }
+    }
+  }
+  &__btn {
+    position: relative;
+    top: 15px;
+    border-radius: 0;
+    border: none;
+    line-height: 16px;
+    outline: none;
+    color: #fff;
+    font-family: "Avenir Next W10 Medium", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    opacity: 0.9;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 15px;
+    &:hover {
+      opacity: 1;
+      -webkit-filter: saturate(2);
+    }
+    &_aqua {
+      background: #1dbab4;
+    }
+
+  }
+}
+
+@keyframes add-experience {
+  0% {
+    stroke-dashoffset: 1554;
+  }
+  20% {
+    stroke-dashoffset: 1243;
+  }
+  40% {
+    stroke-dashoffset: 932;
+  }
+  60% {
+    stroke-dashoffset: 621;
+  }
+  80% {
+    stroke-dashoffset: 310;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.current-rank {
+  text-align: center;
+  &__head {
+    padding-top: 40px;
+    font-size: 19px;
+    color: #848995;
+    margin-bottom: 40px;
+  }
+  &__exp {
+    &_start {
+      color: #ffbe1d;
+    }
+  }
+}
+
+.next-rank {
+  transform: translate(65%, -200%);
+  text-align: center;
+  &__head {
+    font-size: 12px;
+    color: #848995;
+  }
+  &__image {
+    width: 30%;
+    height: 30%;
+  }
+  &__name {
+    font-size: 14px;
+  }
+}

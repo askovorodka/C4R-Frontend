@@ -1,0 +1,19 @@
+.messages{
+  height: 70vh;
+  overflow: auto;
+  &__time{
+    flex-basis: 170px;
+    font-size: $text__size_s;
+    color: $text__color_border-hover;
+  }
+  &__item{
+    @include flex(center, flex-start, row);
+    border-bottom: 1px solid $border__color_main;
+    height: 90px;
+    &_new{
+      .messages__time{
+        color: $text__color_special;      
+      }
+    }
+  }
+}

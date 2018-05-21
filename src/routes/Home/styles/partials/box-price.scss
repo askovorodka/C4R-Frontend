@@ -1,0 +1,35 @@
+.box-price {
+  display: flex;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fff;
+  .currency {
+    transform: scale(.8);
+  }
+  &__old {
+    position: relative;
+    margin-right: 30px;
+    color: #7575b2;
+    .currency__symb {
+      stroke: #7575b2;
+      color: #7575b2;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      left: -10%;
+      top: 60%;
+      width: 120%;
+      height: 1px;
+      background-color: #7575b2;
+    }
+  }
+  &__new {
+    color: #eb3b3b;
+    .currency__symb {
+      stroke: #eb3b3b;
+      color: #eb3b3b;
+    }
+  }
+
+}

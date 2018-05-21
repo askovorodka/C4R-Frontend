@@ -1,0 +1,39 @@
+pipeline:
+  restore-cache:
+    image: drillster/drone-volume-cache
+    restore: true
+    mount:
+      - ./node_modules
+    volumes:
+      - /tmp/cache:/cache
+
+  build:
+    image: node:8-alpine
+    commands:
+      - yarn cache clean
+      - yarn global add rimraf
+      - yarn
+      - sed -i -e 's/{COMMIT_SHA}/${DRONE_COMMIT_SHA}/g' ./public/index.html
+      - yarn run build
+
+  rebuild-cache:
+    image: drillster/drone-volume-cache
+    rebuild: true
+    mount:
+      - ./node_modules
+    volumes:
+      - /tmp/cache:/cache
+
+  deploy:
+    image: drillster/drone-rsync
+    user: root
+    hosts:
+      - stage-ng.cases4real.com
+    port: 22
+    recursive: true
+    delete: true
+    source: ./dist
+    target: /var/www/html/frontend
+    secrets: [ plugin_key ]
+
+branches: [ development ]

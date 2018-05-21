@@ -1,0 +1,32 @@
+.slider-counter {
+  display: flex;
+  &__button {
+    position: relative;
+    margin: 0 3px;
+    border-top: 1px solid #3e3e44;
+    width: 17px;
+    height: 17px;
+    background-color: #2b2b32;
+    &:focus{
+      outline: none;
+    }
+    &_active {
+      border-color: #ebcb78;
+      background-color: #dca20e;
+    }
+  }
+  &__arrow {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 12px; 
+    .arrow__elem {
+      stroke: #b0b2c1;
+    }
+    &_next {
+      transform: translate(-50%, -50%) rotate(180deg);
+    }
+  }
+}

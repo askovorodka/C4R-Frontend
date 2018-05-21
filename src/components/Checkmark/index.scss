@@ -1,0 +1,11 @@
+.checkmark {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 36px;
+  margin-right: 10px;
+  svg {
+    position: absolute;
+    top: -4px;
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "BANNERS": {
+    "WILL_END": "До окончания:"
+  },
+  "NEWS": "Новости",
+  "IMPORTANT": "Важное",
+  "OFFERS": "Предложения",
+  "READ_MORE": "Читать далее",
+  "ALL_NEWS": "Все новости",
+  "NEWS_CONTENT": {
+    "ALL_NEWS": "Все новости",
+    "READ_MORE": "Читать далее",
+    "COMMUNITY_LINK": "https://community-ru.cases4real.com/"
+  },
+  "IMPORTANT_CONTENT": {
+    "ITEM1": "Акция 1",
+    "ITEM2": "Акция 2",
+    "ITEM3": "Акция 3"
+  },
+  "OFFERS_CONTENT": {
+    "ITEM1": {
+      "DESCRIPTION": "Просто невероятно: пушки, гранты, все такое :D ",
+      "BUTTON_NAME": "Принять"
+    },
+    "ITEM2": {
+      "DESCRIPTION": "Просто невероятно: пушки, гранты, все нетакое ",
+      "BUTTON_NAME": "Принять"
+    },
+    "ITEM3": {
+      "DESCRIPTION": "го кс я создал",
+      "BUTTON_NAME": "не я лучше в дотку"
+    }
+  }
+}

@@ -1,0 +1,389 @@
+.caseRoll_monsterVampire {
+  visibility: hidden;
+}
+
+.monster {
+  width: 1200px;
+  height: 800px;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+  }
+  .case-roll {
+    &_center {
+      width: 100%;
+      height: 58%;
+    }
+    &__rows {
+      position: absolute;
+      top: 4px;
+      left: 310px;
+    }
+    .lang-en, .lang-pl, .lang-pt {
+      background: url('../assets/monsterVampireImgEng.png') no-repeat center;
+    }
+    .lang-ru {
+      background: url('../assets/monsterVampireImg.png') no-repeat center;
+    }
+    &_monster-vampire {
+      visibility: visible;
+      width: 1111px;
+      height: 771px;
+      &_wrap {
+        position: absolute;
+        top: -260px;
+        left: -75px;
+        z-index: 3;
+      }
+      &_dot {
+        position: absolute;
+        top: 301px;
+        left: 227px;
+        width: 2px;
+        height: 2px;
+        background-color: #ce0a0a;
+        box-shadow: 0 0 8px 5px rgba(#ce0a0a, 0.8);
+        animation-name: animationOpacityScorpDot;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        @keyframes animationOpacityScorpDot {
+          0% {
+            opacity: 0.3;
+          }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0.3;
+          }
+        }
+      }
+      &_dribble {
+        width: 5px;
+        height: 9px;
+        background: url('../assets/drop_vampire.png') no-repeat center;
+        position: absolute;
+        top: 331px;
+        left: 213px;
+        animation: animationDribble 3s infinite;
+        @keyframes animationDribble {
+          0% {
+            transform: scale(0.1) translateY(0);
+          }
+          50% {
+            transform: scale(1) translateY(0);
+            opacity: 1;
+          }
+          100% {
+            transform: scale(1) translateY(600px);
+            opacity: 0;
+          }
+        }
+      }
+      &_mices {
+        position: absolute;
+        top: 300px;
+        right: -40px;
+        width: 259px;
+        height: 501px;
+        z-index: 4;
+        background: url('../assets/monsterVampire_mices.png');
+      }
+    }
+    &_monster-scorp {
+      visibility: visible;
+      width: 920px;
+      height: 743px;
+      background: url('../assets/monsterScorpImg.png') no-repeat center;
+      &_wrap {
+        position: absolute;
+        top: -236px;
+        left: 145px;
+        z-index: 4;
+      }
+      &_eyes {
+        width: 15px;
+        height: 23px;
+        transform: scale(1.35);
+        position: absolute;
+        top: 94px;
+        left: 250px;
+        // background-color: rgba(#ce0a0a, 0.6);
+        // box-shadow: 0 0 12px 3px rgba(#ce0a0a, 0.6);
+        animation-name: animationOpacityScorpEye;
+        animation-duration: 4.5s;
+        animation-iteration-count: infinite;
+        @keyframes animationOpacityScorpEye {
+          0% {
+            fill: #fff;
+            opacity: 0.3;
+          }
+          50% {
+            fill: #000;
+            opacity: 0.8;
+          }
+          100% {
+            fill: #fff;
+            opacity: 0.3;
+          }
+        }
+      }
+      &_dot {
+        position: absolute;
+        width: 3px;
+        height: 3px;
+        // border-radius: 50%;
+        background-color: #ce0a0a;
+        box-shadow: 0 0 8px 4px rgba(#ce0a0a, 0.8);
+        animation-name: animationOpacityScorpDot;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        @keyframes animationOpacityScorpDot {
+          0% {
+            opacity: 0.3;
+          }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0.3;
+          }
+        }
+        &-1 {
+          top: 227px;
+          left: 151px;
+        }
+        &-2 {
+          top: 217px;
+          left: 298px;
+        }
+      }
+      &_dribble {
+        width: 5px;
+        height: 9px;
+        background: url('../assets/drop_scorp.png') no-repeat center;
+        position: absolute;
+        top: 282px;
+        right: 117px;
+        animation: animationDribble 3s infinite;
+        @keyframes animationDribble {
+          0% {
+            transform: scale(0.1) translateY(0);
+          }
+          50% {
+            transform: scale(1) translateY(0);
+            opacity: 1;
+          }
+          100% {
+            transform: scale(1) translateY(600px);
+            opacity: 0;
+          }
+        }
+      }
+      &_ass {
+        width: 65px;
+        height: 95px;
+        position: absolute;
+        top: 293px;
+        left: 57px;
+        border-radius: 52px 0 0 0;
+        overflow: hidden;
+        z-index: -1;
+        &-anim {
+          background-image: url('../assets/animScorp_bg_active.jpg');
+          width: 3337px;
+          height: 330px;
+          animation: animBgActive_scorp 2.5s steps(47, end) infinite;
+          @keyframes animBgActive_scorp {
+            to {
+              transform: translateX(-3337px)
+            }
+          }
+        }
+      }
+    }
+    &_monster-snake {
+      visibility: visible;
+      width: 330px;
+      height: 193px;
+      background: url('../assets/monsterSnakeImg.png') no-repeat center;
+      position: absolute;
+      top: -140px;
+      left: 245px;
+      z-index: 4;
+      &_eye {
+        width: 5px;
+        height: 5px;
+        position: absolute;
+        top: 23px;
+        right: 51px;
+        border-radius: 5px;
+        background: #29de08;
+        box-shadow: 0 0 17px 12px rgba(#58c045, 0.8);
+        animation-name: animationOpacityEyeSnake;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        @keyframes animationOpacityEyeSnake {
+          0% {
+            opacity: 0.8;
+          }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0.8;
+          }
+        }
+      }
+      &_dribble {
+        width: 5px;
+        height: 9px;
+        background: url('../assets/drop.png') no-repeat center;
+        position: absolute;
+        top: 63px;
+        right: 7px;
+        animation: animationDribble 3s infinite;
+        @keyframes animationDribble {
+          0% {
+            transform: scale(0.1) translateY(0);
+          }
+          50% {
+            transform: scale(1) translateY(0);
+            opacity: 1;
+          }
+          100% {
+            transform: scale(1) translateY(600px);
+            opacity: 0;
+          }
+        }
+      }
+    }
+    &_cthulhu {
+      visibility: visible;
+      width: 891px;
+      height: 285px;
+      position: absolute;
+      top: -197px;
+      left: 50%;
+      z-index: 4;
+      transform: translateX(-50%);
+      background: url('../assets/monsterImg.png') no-repeat center;
+      pointer-events: none;
+      &_face {
+        width: 100px;
+        height: 143px;
+        overflow: hidden;
+        position: absolute;
+        top: 99px;
+        left: 383px;
+        div {
+          width: 3700px;
+          height: 143px;
+          background-image: url('../assets/face.png');
+          background-size: 3700px 143px;
+          animation: backGifFace 1s steps(37, end) infinite;
+          @keyframes backGifFace {
+            to {
+              transform: translateX(-3700px)
+            }
+          }
+        }
+      }
+      &_eye {
+        width: 3px;
+        height: 3px;
+        position: absolute;
+        top: 157px;
+        background: #ffbc17;
+        box-shadow: 0 0 14px 8px #ffbc17;
+        border-radius: 3px;
+        animation-name: animationOpacityEye;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        @keyframes animationOpacityEye {
+          0% {
+            opacity: 0;
+          }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+        &-left {
+          left: 414px;
+        }
+        &-right {
+          left: 450px;
+        }
+      }
+    }
+    &_ragnarok {
+      visibility: visible;
+      width: 1024px;
+      height: 845px;
+      background: url('../assets/monsterRagImg.png') no-repeat center;
+      position: absolute;
+      top: -252px;
+      left: 120px;
+      z-index: 4;
+      pointer-events: none;
+      &_decor {
+        border-radius: 50%;
+        position: absolute;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        &-left {
+          width: 35px;
+          height: 35px;
+          top: 187px;
+          left: 90px;
+          background-color: #8f9ab0;
+          animation-name: animationRagDecorLeft;
+          @keyframes animationRagDecorLeft {
+            0% {
+              box-shadow: 0 0 35px 40px #8f9ab0;
+              opacity: 0.3;
+            }
+            50% {
+              box-shadow: 0 0 40px 55px #8f9ab0;
+              opacity: 0.5;
+            }
+            100% {
+              box-shadow: 0 0 35px 40px #8f9ab0;
+              opacity: 0.3;
+            }
+          }
+        }
+        &-right {
+          width: 5px;
+          height: 5px;
+          top: 203px;
+          right: 97px;
+          background-color: #fff400;
+          animation-name: animationRagDecorRight;
+          @keyframes animationRagDecorRight {
+            0% {
+              box-shadow: 0 0 35px 40px #f3e71f;
+              opacity: 0.6;
+            }
+            50% {
+              box-shadow: 0 0 40px 55px #f3e71f;
+              opacity: 0.8;
+            }
+            100% {
+              box-shadow: 0 0 35px 40px #f3e71f;
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

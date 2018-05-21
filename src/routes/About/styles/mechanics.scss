@@ -1,0 +1,111 @@
+.mechanics{
+  width: 895px;
+
+  &-secret{
+
+    &__title{
+      font-family: 'Avenir', 'Roboto', sans-serif;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    &__description{
+      font-family: 'Roboto', 'Avenir', sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+      color: #b0b2c1;
+      margin: 30px 0;
+    }
+
+    &__image{
+      width: 895px;
+      height: 180px;
+    }
+  }
+
+  &-monster {
+
+    &__title {
+      font-family: 'Avenir', 'Roboto', sans-serif;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    &__description {
+      font-family: 'Roboto', 'Avenir', sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+      color: #b0b2c1;
+      margin: 30px 0;
+    }
+
+    &__image {
+      width: 895px;
+      height: 180px;
+    }
+  }
+
+  &-experience {
+
+    &__title {
+      font-family: 'Avenir', 'Roboto', sans-serif;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    &__description {
+      font-family: 'Roboto', 'Avenir', sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+      color: #b0b2c1;
+      margin: 30px 0;
+    }
+
+    &__image {
+      width: 895px;
+      height: 180px;
+    }
+  }
+
+  &-power {
+
+    &__title {
+      font-family: 'Avenir', 'Roboto', sans-serif;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    &__subtitle {
+      margin-top: 10px;
+      font-family: 'Avenir', 'Roboto', sans-serif;
+      font-size: 18px;
+      text-align: center;
+      color: #ffbe1d;
+    }
+
+    &__description {
+      font-family: 'Roboto', 'Avenir', sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+      color: #b0b2c1;
+      margin: 30px 0;
+    }
+
+    &__image {
+      width: 895px;
+      height: 180px;
+    }
+  }
+}

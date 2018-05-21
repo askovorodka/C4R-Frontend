@@ -1,0 +1,361 @@
+label[for="payment-form-rub"] {
+  font-family: Als Rubl !important;
+}
+.payment__agree a {
+  color: #ffbc17;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.payment__agree {
+  margin: 30px 0;
+}
+.page-payment .content .wrap{
+  width: 100%;
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+.page-payment .content.pt115{
+  padding-top: 80px !important;
+}
+
+.payment{
+  &__bonus{
+    //background: url('../img/pay_bg1.jpg');
+    padding-top: 20px;
+    &__wrap{
+      max-width: 768px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    &__text{
+      font-size: 14px;
+      line-height: 24px;
+      width: 100%;
+      @media all and (max-width: 1000px){
+        text-align: center;
+      }
+      @media all and (min-width: 1000px){
+        width: calc(100% - 300px);
+        font-size: 21px;
+        line-height: 32px;
+      }
+    }
+    &__time{
+      width: 250px;
+      @media all and (max-width: 1000px){
+        margin: 10px auto;
+      }
+    }
+  }
+  &__coupon{
+    padding: 30px 0;
+    text-align: center;
+    line-height: 36px;
+    //background: url('../img/pay_bg1.jpg');
+    >div{
+      &:first-child{
+        font-size: 25px;
+      }
+      &:last-child{
+        font-size: 21px;
+      }
+    }
+  }
+  &__pay{
+    padding: 40px 0 30px 0;
+    //background: url('../img/paymentBg.jpg') no-repeat center;
+    background-size: cover;
+    &__first{
+      width: 440px;
+      max-width: 100%;
+      margin: 0 auto;
+      left: -60px;
+      text-align: center;
+      position: relative;
+      .pay__pop__pay__valuta{
+        input:checked+label, input.checked{
+          background: #4a5164;
+        }
+      }
+      label{
+        font-size: 13px;
+        line-height: 40px;
+        color: #fff;
+        // text-transform: uppercase;
+        font-weight: bold;
+        @media all and (max-width: 1000px){
+          display: block;
+          width: 50%;
+        }
+      }
+    }
+    &__res{
+      position: absolute;
+      text-align: center;
+      width: 135px;
+      right: -139px;
+      top: 0;
+      >div{
+        &:first-child{
+          font-size: 13px;
+          line-height: 40px;
+          // text-transform: uppercase;
+          font-weight: bold;
+        }
+        &:last-child{
+          font-size: 23px;
+          font-weight: bold;
+          color: #fff;
+          line-height: 61px;
+        }
+      }
+      &.with-profit{
+        >div{
+          &:first-child{
+            span span{
+              color: #ffb800;
+            }
+          }
+          &:last-child{
+            color: #ffb800;
+          }
+        }
+      }
+    }
+    &__inp{
+      display: block;
+      -moz-appearance: textfield;
+      width: 100%;
+      height: 61px;
+      background: #191b21 !important;
+      // box-shadow: inset 10px 10px 20px #080808;
+      border-radius: 0 !important;
+      outline: none;
+      border: none !important;
+      border-bottom: 1px solid #2d2d2d !important;
+      color: #fff !important;
+      font-weight: bold !important;
+      font-size: 25px !important;
+      text-align: center !important;
+    }
+    &__fast{
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      line-height: 32px;
+      margin: 5px 0;
+      span{
+        color: #7c808f;
+      }
+      &__its{
+        display: flex;
+        div{
+          cursor: pointer;
+          color: #ffb800;
+          padding: 0 8px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    &__btns{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px auto;
+      .btn{
+        margin: 0 3px;
+      }
+    }
+    &__info{
+      width: calc(100% - 40px);
+      margin: 0 auto;
+      font-size: 21px;
+      line-height: 32px;
+      text-align: center;
+    }
+  }
+  &__case{
+    text-align: center;
+    //background: url('../img/paymentBg.jpg') no-repeat center;
+    background-size: cover;
+    padding-bottom: 20px;
+    &__zag{
+      font-size: 19px;
+      font-weight: bold;
+      line-height: 32px;
+      padding: 60px 0 20px 0;
+      text-transform: uppercase;
+    }
+    &__is{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      >div{
+        width: 280px;
+        min-height: 300px;
+        margin: 0 10px 15px 10px;
+        border: 1px solid #3b3b40;
+      }
+    }
+    &__it{
+      text-align: center;
+      background: #3a3024;
+      padding: 15px 0;
+      box-shadow: 0 20px 20px rgba(0,0,0,0.35);
+      //background: url('../img/paymentWinsBg.jpg') no-repeat center;
+      background-size: cover;
+      &__time{
+        font-size: 14px;
+        color: #7c808f;
+        padding: 10px 0;
+      }
+      &__user{
+        font-size: 21px;
+        line-height: 30px;
+      }
+      &__name{
+        font-size: 15px;
+        color: #ffb800;
+        line-height: 30px;
+      }
+      &__img{
+        width: 120px;
+        height: 120px;
+        // background: #ccc;
+        background-image: url('../img/itemsBg.jpg');
+        background-size: 840px 120px;
+        margin: 15px auto 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          display: block;
+          max-height: 90%;
+          min-width: 90%;
+        }
+        &--1{background-position: 0 0;}
+        &--2{background-position: -120px 0;}
+        &--3{background-position: -240px 0;}
+        &--4{background-position: -360px 0;}
+        &--5{background-position: -480px 0;}
+        &--6{background-position: -600px 0;}
+        &--7{background-position: -7200px 0;}
+      }
+      &__open{
+        font-size: 16px;
+        color: #7c808f;
+        line-height: 20px;
+      }
+      &__price{
+        font-size: 19px;
+        font-weight: bold;
+        line-height: 30px;
+      }
+    }
+  }
+  &__timer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    &.disabled >div > div:first-child{
+      color: #fe5926;
+    }
+    &__wrap{
+      margin: 0 3px;
+      >div:first-child{
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border: 1px solid #726245;
+        font-size: 35px;
+        font-weight: 500;
+        background: rgba(21,20,20,0.85);
+        box-shadow: inset 0 0 10px 7px #0e0e0e;
+      }
+      >div:last-child{
+        font-size: 15px;
+        color: #a1a5b7;
+        line-height: 34px;
+      }
+    }
+  }
+}
+
+.payment__agree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 30px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.payment__agree__check {
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+}
+
+.payment__agree__check input {
+  display: none;
+}
+
+.payment__agree__check label {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.payment__agree__check label:before, .payment__agree__check label:after {
+  display: block;
+  content: '';
+  width: 2px;
+  background: #565b66;
+  position: absolute;
+  bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+.payment__agree__check label:before {
+  height: 8px;
+  -webkit-transform-origin: left bottom;
+  -ms-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: rotate(-40deg);
+  -ms-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+  left: 12px;
+}
+
+.payment__agree__check label:after {
+  height: 12px;
+  -webkit-transform-origin: right bottom;
+  -ms-transform-origin: right bottom;
+  transform-origin: right bottom;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  left: 11px;
+}
+
+.payment__agree__check input:checked + label {
+  border-color: #ffbc17;
+  background: #ffbc17;
+}
+
+.payment__agree__check input:checked + label:before, .payment__agree__check input:checked + label:after {
+  background: #fff;
+}

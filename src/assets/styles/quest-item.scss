@@ -1,0 +1,116 @@
+.quest-item{
+  @include flex(stretch, flex-start, column);
+  width: 261px;
+  height: 315px;
+  background:{
+    image: url('/assets/images/quest-item_bg.jpg');
+    position: left bottom;
+    repeat: no-repeat;
+  }
+  color: $text__color_border-hover;
+  &__header{
+    @include flex(center, space-between, row);
+    width: 100%;
+  }
+  &__progress{
+    &-text{
+      margin-right: 10px;
+    }
+    &-done{
+      color: $text__color_special;
+    }
+    &-bar{
+      position: absolute;
+      left: 31px; 
+      top: 86px;
+      z-index: 0;
+      width: 200px;
+      height: 185px;
+      &-elem{
+        stroke: $border__color_hover;
+        fill: $border__color_hover;
+      }
+    }   
+  }
+  &__close-icon{
+    transition: all .2s ease;
+    .close-icon__elem{
+      stroke: $border__color_main;
+    }
+    &:hover{
+      border-color: $border__color_hover;
+      .close-icon__elem{
+        stroke: $border__color_hover;        
+      }
+    }
+  }
+  &__content{
+    @include flex(center, flex-start, column);
+    flex-grow: 1;
+    position: relative;
+    padding-top: 18px;    
+  }
+  &__heading{
+    max-width: 70%;
+    text-align: center;
+    font-size: $text__size_m;
+    color: $text__color_main;
+  }
+  &__success{
+    
+    margin-top: 5px;
+    font-size: 1.3em;
+    color: $text__color_special;
+  }
+  &__price{
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-left: .3em;    
+    .currency{
+      margin-left: .3em;
+      transform: scale(.9);      
+      &__symb{
+        stroke: $border__color_special;
+      }
+    }
+  }
+  &__img{
+    position: absolute;
+    z-index: 0;
+    left: 56px;
+    top: 103px;
+    max-width: 150px;
+    max-height: 143px;
+  }
+  &__btn{
+    position: absolute;
+    left: 42px;
+    bottom: 34px;
+    width: 136px;
+  }
+  &_finished{
+    .quest-item{
+      &__close-icon{
+        visibility: hidden;
+      }
+      &__progress-all{
+        color: $text__color_special;
+      }
+      &__heading{
+        display: none;
+      }
+      &__price{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: 0;
+        transform: translate(-45%, 40%) scale(1.9);
+      }
+      &__img{
+        visibility: hidden;
+      }
+      &__btn{
+      }
+    }
+  }
+}

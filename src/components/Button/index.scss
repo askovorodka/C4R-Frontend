@@ -1,0 +1,20 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease;
+  text-transform: uppercase;
+  line-height: 1.6;
+  white-space: nowrap;
+  color: #fff;
+  cursor: pointer;
+  &:focus{
+    outline: none;
+  }
+  &_yellow {
+    background-color: #ffbe1d;
+  }
+}
+.color_black{
+  color:#000000;
+}

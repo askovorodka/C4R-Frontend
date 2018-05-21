@@ -1,0 +1,30 @@
+.user-rang{
+  &__name{
+    color: $text__color_special;
+    text-align: center;
+    padding:{
+      top: 5px;
+      bottom: 10px;
+    }
+  }
+  &__icon{
+    //temp
+    &:first-child{
+      margin-right: 17px;
+    }
+  }
+  &__progress{
+    @include flex(stretch, space-around, row);
+    display: none;
+    padding: 0 12px;
+    &-bar{
+      width: $progress-bar__width_l;
+      text-align: center;
+      line-height: 1.3;
+      &_full{
+        width: ($progress-bar__width_l - 2px);
+        height: calc(100% - 2px);
+      }
+    }
+  }
+}

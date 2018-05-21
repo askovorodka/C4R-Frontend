@@ -1,0 +1,75 @@
+.social-buttons {
+  position: fixed;
+  right: 0;
+  top: 290px;
+  z-index: 3;
+  width: 95px;
+  height: 355px;
+  &__bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 68px;
+    height: 100%;
+    &-elem {
+      fill: #ffbe1d;
+    }
+  }
+  &__items {
+    position: relative;
+    z-index: 1;
+    margin-top: 45px;
+    width: 55px;
+  }
+  &__item {
+    margin-bottom: 12px;
+    &:hover {
+      .social-buttons__decor-elem {
+        animation: social-buttons .4s linear forwards;
+      }
+    }
+  }
+  &__link {
+    display: block;
+    position: relative;
+    width: 55px;
+    height: 55px;
+  }
+  &__img {
+    display: block;
+  }
+  &__decor {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all .3s ease;
+    overflow: hidden;
+    width: 55px;
+    height: 55px;
+    &-elem {
+      fill: transparent;
+      stroke: #ffbe1d;
+      stroke-width: 1px;
+      stroke-dasharray: 100;
+      stroke-dashoffset: -100;
+    }
+    @keyframes social-buttons {
+      to {
+        stroke-dashoffset: 0;
+      }      
+    }
+  }
+  &__text {
+    position: absolute;
+    right: -160px;
+    top: 127px;
+    transform: rotate(-90deg);
+    width: 300px;
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+    &:last-child {
+      right: -180px;
+    }
+  }
+}

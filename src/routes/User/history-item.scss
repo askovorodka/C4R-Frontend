@@ -1,0 +1,66 @@
+@mixin history-item ($color) {
+  .history-item__name {
+    color: $color;
+  }
+}
+.history-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  width: 905px;
+  height: 55px;
+  font-family: Roboto, Avenir, sans-serif;
+  &:first-child{
+
+  }
+  &:nth-child(odd) {
+
+  }
+  &:nth-child(even) {
+    background-color: #292a3f;
+  }
+  &_quality {
+    &_BS {
+      @include history-item(#9ea2b2);
+    }
+    &_WW {
+      @include history-item(#6280f2);
+    }
+    &_FT {
+      @include history-item(#4f85f2);
+    }
+    &_MW {
+      @include history-item(#c022d3);
+    }
+    &_FN {
+      @include history-item(#ba223b);
+    }
+  }
+  &__img {
+    height: 100%;
+  }
+  &__name {
+    width: 325px;
+    text-align: center;
+  }
+  &__price {
+    display: flex;
+    justify-content: center;
+    width: 145px;
+    font-size: 14px;
+    color: #b0b2c1;
+    .currency {
+      transform: scale(.7);
+      &__symb {
+        stroke: #b0b2c1;
+      }
+    }
+  }
+  &__status {
+    width: 180px;
+    text-align: center;
+    font-size: 14px;
+    color: #b0b2c1;
+  }
+}

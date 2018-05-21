@@ -1,0 +1,21 @@
+.company{
+  width: 895px;
+  min-height: 400px;
+
+  &__paragraph {
+    font-family: 'Roboto', 'Avenir', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #b0b2c1;
+    margin: 15px 0;
+  }
+
+  &__game-link {
+    color: #ffbe1d;
+    transition: 1s all ease;
+
+    &:hover {
+      color: #ffbaaa;
+    }
+  }
+}

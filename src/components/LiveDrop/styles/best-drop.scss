@@ -1,0 +1,31 @@
+@mixin bestDropGradient($color) {
+  color: $color;
+  background: radial-gradient(closest-side, transparentize($color, .3), transparentize($color, .8) 30%, transparent 70%);
+  background: {
+    position: 48% 10%;
+    size: 145% 230%;
+    repeat: no-repeat;
+  }
+}
+
+.best-drop {
+  @include bestDropGradient(#d5a51e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 200px;
+  height: 100%;
+  font-size: 12px;
+  &__img {
+    max-width: 150px;
+    max-height: 70px;
+  }
+  &__player-name {
+    color: #c1b0b3;
+  }
+  &__drop-name {
+    color: #fff;
+  }
+}

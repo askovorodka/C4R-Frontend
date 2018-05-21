@@ -1,0 +1,132 @@
+.roulette-items {
+  display: flex;
+  position: relative;
+  padding-top: 22px;
+  width: 1200px;
+  height: 360px;
+  overflow: hidden;
+  &_animate {
+    .roulette-items__scale::after {
+      animation-name: roulette-items__scale;
+      animation-duration: 4s;
+      animation-iteration-count: 2;
+      animation-timing-function: linear;
+    }
+    .roulette-item {
+      animation-name: roulette-item;
+      animation-duration: 8s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+    }
+  }
+  &__scale {
+    position: absolute;
+    left: 50%;
+    top: 11px;
+    transform: translateX(-200px);
+    width: 401px;
+    height: 375px;
+    background-image: url(/assets/images/boxes/open/scale.png);
+    &::after {
+      content: url(/assets/images/boxes/open/scale__circle.png);
+      position: absolute;
+      left: 196px;
+      top: 115px;
+    }
+  }
+}
+
+@keyframes roulette-items__scale {
+  40% {
+    top: 310px;
+  }
+  75% {
+    top: 0;
+  }
+  100% {
+    top: 115px;
+  }
+}
+
+@mixin roulette-item($color) {
+  .roulette-item {
+    &__decor {
+      background: radial-gradient(closest-side, $color, transparent);
+      background: {
+        size: 100% 120%;
+        repeat: no-repeat;
+      }
+    }
+    &__target-elem {
+      stroke: $color;
+      fill: darken($color, 30%);
+    }
+    &__name {
+      color: lighten($color, 40%);
+    }
+  }
+}
+
+.roulette-item {
+  position: relative;
+  margin: 0 3px;
+  &__image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -28%);
+    max-width: 215px;
+    max-height: 130px;
+  }
+  &__decor {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 7px;
+    top: 113px;
+    width: 222px;
+    height: 245px;
+    &-image {
+      margin-top: 12px;
+      width: 193px;
+      height: 237px;
+    }
+  }
+  &__name {
+    position: absolute;
+    left: 21px;
+    bottom: 55px;
+    width: 193px;
+    text-align: center;
+    font-size: 18px;
+  }
+  // до куда крутим рулетку
+  &__target {
+    width: 233px;
+    height: 370px;
+  }
+  &__shots {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 229px;
+    height: 387px;
+  }
+  &_quality {
+    &_BS {
+      @include roulette-item(#9ea2b2);
+    }
+    &_WW {
+      @include roulette-item(#6280f2);
+    }
+    &_FT {
+      @include roulette-item(#4f85f2);
+    }
+    &_MW {
+      @include roulette-item(#c022d3);
+    }
+    &_FN {
+      @include roulette-item(#ba223b);
+    }
+  }
+}

@@ -1,0 +1,121 @@
+'use strict'
+import { Component } from 'react'
+import { translate } from 'react-i18next'
+import './styles/agreement.scss'
+
+@translate(['about'])
+export class Agreement extends Component {
+  render () {
+    const {t} = this.props
+    return (
+      <section className='agreement'>
+        <p className='agreement__paragraph'>{t('AGREEMENT.INTRO.DATE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.INTRO.CAPT')}</p>
+        <p className='agreement__title'>{t('AGREEMENT.P0.TITLE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P0.1')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P0.2')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P0.3')}</p>
+        <p className='agreement__title'>{t('AGREEMENT.P1.TITLE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P1.1')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P1.2')}</p>
+        <p className='agreement__title'>{t('AGREEMENT.P2.TITLE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.1')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.2')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.3')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.4')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.5')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.6')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.7')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.8')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.9')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.10')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.11')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.12')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.13')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.14')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.15')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.16')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.17')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.18')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.19')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.20')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.21')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.22')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.23')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P2.24')}</p>
+        <p className='agreement__title'>{t('AGREEMENT.P3.TITLE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P3.1')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P3.2')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P3.3')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P3.4')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P3.5')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P3.6')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P3.7')}</p>
+        <p className='agreement__title'>{t('AGREEMENT.P4.TITLE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.1')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.2')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.3')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.4')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.5')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.6')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.7')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.8')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.9')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.10')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.11')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.12')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P4.13')}</p>
+        <p className='agreement__title'>{t('AGREEMENT.P5.TITLE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.1')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.2')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.3')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.4')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.5')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.6')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.7')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.8')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.9')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.10')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.11')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.12')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.13')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.14')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.15')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.16')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.17')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P5.18')}</p>
+        <p className='agreement__title'>{t('AGREEMENT.P6.TITLE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P6.1')}</p>
+        <p className='agreement__title'>{t('AGREEMENT.P7.TITLE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P7.1')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P7.2')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P7.3')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P7.4')}</p>
+        <p className='agreement__title'>{t('AGREEMENT.P8.TITLE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P8.1')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P8.2')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P8.3')}</p>
+        <p className='agreement__title'>{t('AGREEMENT.P9.TITLE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P9.1')}</p>
+        <p className='agreement__title'>{t('AGREEMENT.P10.TITLE')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.1')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.2')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.3')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.4')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.5')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.6')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.7')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.8')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.9')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.10')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.11')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.12')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.13')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.14')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.15')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.16')}</p>
+        <p className='agreement__paragraph'>{t('AGREEMENT.P10.17')}</p>
+      </section>
+    )
+  }
+}

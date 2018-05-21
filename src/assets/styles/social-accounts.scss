@@ -1,0 +1,57 @@
+.social-accounts {
+  @include flex(stretch, center);
+  margin: 30px 0;
+  &_page {
+    &_invite {
+      justify-content: flex-start;
+      margin: {
+        top: 10px;
+        bottom: 40px;
+      }
+    }
+  }
+  &__item {
+    font-family: "social";
+    font-size: 32px;
+    color: $text__color_social;
+    border-top: 1px solid #424f6f;
+    width: 105px;
+    height: 105px;
+    background: {
+      color: $bg__color-social;
+    }
+    margin: 0 13px;
+    padding: 0;
+    .btn-decor {
+      right: -10px;
+      bottom: 2px;
+    }
+    &_net {
+      &_vk, &_vkontakte{
+        &::before {
+          content: '\e800';
+        }
+      }
+      &_fb, &_facebook {
+        &::before {
+          content: '\e801';
+        }
+      }
+      &_steam {
+        &::before {
+          content: '\e803';
+        }
+      }
+    }
+  }
+  &__item:hover, &__item[disabled]  {
+    color: $text__color_social-hover;
+    border-top: 1px solid #6d8aaa;
+    background: {
+      color: $bg__color-social-hover;
+    }
+  }
+  &__item[disabled] {
+    cursor: default;
+  }
+}

@@ -1,0 +1,47 @@
+.nav {
+  font-family: 'Avenir', 'Roboto', sans-serif;
+  &__icon {
+    transition: all .3s ease;
+    margin-right: 10px;
+    padding: 20px;
+    width: 28px;
+    height: 28px;
+    &-elem {
+      transition: all .3s ease;    
+      stroke: #676e81;
+      stroke-width: 2px;
+      fill: rgb(50,50,61);
+    }
+    &_text {
+      transform: translateX(-5px);                
+      line-height: 1.8;
+      font-weight: bold;
+      color: #676e81;
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    height: 100%;
+    line-height: 2.5em;
+    white-space: nowrap;
+    color: #fff;
+    &:hover {
+      .nav__icon {
+        &-elem {
+          stroke: #ffbc17;
+        }
+        &_text {
+          color: #ffbc17;     
+        }
+      }
+    }
+  }
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    margin-right: 10px;
+  }
+}

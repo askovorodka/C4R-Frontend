@@ -1,0 +1,59 @@
+{
+  "CATEGORY": {
+    "INFO": {
+      "POWER": "Information about the shelf. Pop. Information about the shelf. Pop. Information about the shelf. Pop. Information about the shelf. Popap."
+    },
+    "TYPE": {
+      "POWER": "Caixas Power",
+      "SECRET": "Caixas secretas",
+      "MONSTER": "Casos Monster",
+      "NEW": "Novas caixas",
+      "SEASON": "Ofertas especiais de outubro",
+      "SETS": "Caixas comuns",
+      "BUILDS": "Caixas exclusivas",
+      "COLLECTIONS": "Coleções"
+    }
+  },
+  "CATEGORY_LIST": {
+    "HEADING": "ESCOLHA A CAIXA"
+  },
+  "OPEN": {
+    "BUTTON_OPEN": "Abra a caixa por",
+    "LOOT_LIST_HEADING": "Itens na caixa",
+    "RESULT": {
+      "HEADING1": "PARABÉNS!",
+      "YOUR_PRIZE": "Seu prêmio",
+      "MARKET_PRICE": "Preço de mercado:",
+      "SELL": "Vendido por",
+      "TAKE": "Enviar para o inventário",
+      "LEAVE_REVIEW": "Faça um comentário e recupere sua sorte!",
+      "ON_BALANCE": "Seu balanço: ",
+      "OPEN_MORE": "Abra outra",
+      "OPEN": "Abrir caixa",
+      "SOLD": "Item sold"
+    }
+  },
+  "SPECIAL_CASES": {
+    "ROOKIE": "Rookie",
+    "EXPERIENCED": "Experienced",
+    "MANIAC": "Maniac",
+    "CYBERGAMER": "CYBERGAMER",
+    "CHEATERS_CASE": "Cheater's case",
+    "GABEN": "Gaben",
+    "ITEMS_TO_INVENTORY": "Todas as skins não vendidas vão automaticamente para o inventário",
+    "SELL_ALL": "vender todas por",
+    "OPEN": "abrir por",
+    "OPEN_ANY": "abrir novamente por"
+  },
+  "FEEDBACK": {
+    "SEND_FEEDBACK": "Send review",
+    "FEEDBACK_HAS_BEEN_SENT": "Feedback has been sent",
+    "SEND": "Send"
+  },
+  "RANK": {
+    "CONGRATULATIONS": "Parabéns",
+    "YOUR_RANK": "Sua classificação",
+    "NEXT_RANK": "Próxima classificação",
+    "CONTINUE": "Continuar"
+  }
+}

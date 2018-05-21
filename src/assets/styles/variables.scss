@@ -1,0 +1,137 @@
+
+
+//bg
+  //colors
+$bg__color_main: #1a1b27;
+$bg__color_secondary: rgb(50,50,61);
+$bg__color_important: #ffbe1d;
+$bg__color_ticker: #b97500;
+
+$bg__color_hover: #b8fcfd;
+$bg__color_messages: #ef1616;
+$bg__color_border: #004866;
+$bg__color_text: #b5c6cd;
+$bg__color_vk: #507299;
+$bg__color_fb: #29487d;
+$bg__color_steam: #c6c3c1;
+
+$bg__color_social: #213056;
+$bg__color_social-hover: #54769b;
+$bg__color_button: #31323c;
+
+
+//text
+  //colors
+/*$text__color_main: #b0b2c1;*/
+$text__color_main: #fff;
+$text__color_secondary: #676e81;
+$text__color_important: #ffbc17;
+$text__color_link: #a9ecff;
+$text__color_dark: #000;
+$text__color_h2: #b0b2c1;
+
+$text__color_border: #004866;
+$text__color_border-hover: #1a698a;
+$text__color_special: #eeb644;
+$text__color_special-hover: #fde89f;
+$text__color_warning: #cc5959;
+
+$text__color_social: #515772;
+$text__color_social-hover: #ffffff;
+
+$text__color_button: #ffffff;
+$text__color_button-inactive: #5b5d64;
+
+  //sizes
+$text__size_min: 12px;
+$text__size_s: 14px;
+$text__size_m: 16px;
+$text__size_l: 18px;
+$text__size_max: 21px;
+$text__size_ticker: 25px;
+
+//border
+  //colors
+$border__color_main: #004866;
+$border__color_hover: #1a698a;
+$border__color_hover-bright: #b8fcfd;
+$border__color_special: #eeb644;
+$border__color_special-hover: #fde89f;
+$border__color_neutral: #b5c6cd;
+$border__color_bartop: #0b0d12;
+$border__color_bardown: #36364e;
+$border__color_button: #4c4d55;
+
+//blocks
+  //width
+   //main
+$width_max: 1200px;
+
+  //break-points
+    //majors
+
+    //minors
+
+//banner
+  //sizes
+$banner__width: 936px;
+
+//box-category
+  //sizes
+
+//form
+ //sizes
+$form__size_data: 520px;
+$form__size_pay: 560px;
+$form-input__size_l: 200px;
+
+//user-rang
+  //sizes
+$progress-bar__width_l: 153px;
+
+//profile
+  //sizes
+$profile__size_width_l: 255px;
+
+//inventory
+  //sizes
+$inventory__height_l: 680px;
+
+//btns
+  //colors
+  $login__color_steam: #55517c;
+  $login__color_others: #475270;
+
+  //sizes
+  $btn__height: 50px;
+
+//launcher
+  //colors
+$launcher-bg__color_main:rgba(50, 50, 61, .5);
+$launcher-bg__color_btn: rgb(50,50,61);
+$launcher-bg__color_active: #1a1b27;
+$launcher-bg__color_counter: rgb(50,50,61);
+$launcher-bg__color_important: transparentize(#1a1b27, 0.4);
+$launcher-bg__color_offers-text: transparentize(#1a1b27, 0.4);
+$launcher-bg__color_offers-btn: #ffbe1d;
+
+  //sizes
+$launcher__size_height: 340px;
+
+//liveDrop
+ //colors
+$live-drop__color_main: #414573;
+$live-drop__color_btn: rgb(50,50,61);
+$live-drop__grad: #414573;
+
+$live-drop_0: #ccc;
+$live-drop_1: #4E7F80;
+$live-drop_2: #AB83D9;
+$live-drop_3: #6ABF63;
+$live-drop_4: #F24738;
+$live-drop_5: #F2C777;
+
+//focus
+  //color
+  $focus__shadow_main: 0 0 3px 2px rgba(115, 103, 54, .4);
+  $focus__shadow_secondary: 0 0 5px 2px rgba(65, 69, 115, .6);

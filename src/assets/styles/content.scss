@@ -1,0 +1,66 @@
+.content{
+  position: relative;
+  padding: 15px;
+  min-height: 262px;
+  &__container{
+      @include flex(stretch, space-between, row);
+      padding-bottom: 30px;
+      &_type{
+        &_achievement{
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          margin-top: 10px;
+          border-top: 1px solid $border__color_main;
+          padding-bottom: 20px;
+        }
+      }
+  }
+  &.box-decor{
+    &:after{
+      border-width: 62px;
+    }
+  }
+  &__decor{
+    position: absolute;
+    z-index: 1;
+    bottom: -1px;
+    right: -1px;
+    width: 62px;
+    height: 62px;
+  }
+  &__btn{
+    flex-shrink: 0;
+    margin:{
+      top: 10px;
+      right: 25px;
+    }
+    width: 200px;
+    height: 50px;
+    .btn-decor{
+      right: 25px;
+    }
+  }
+  &__text{
+    max-width: 570px;
+    line-height: 1.6em;
+    font-size: $text__size_s;
+    &_warning{
+      color: $text__color_warning;
+    }
+  }
+  &__link{
+    color: $text__color_border-hover;
+  }
+  &__connect-account{
+    padding:{
+      top: 15px;
+      bottom: 15px;
+    }
+  }
+  &__personal-info{
+    padding:{
+      top: 15px;
+      bottom: 15px;
+    }
+  }
+}

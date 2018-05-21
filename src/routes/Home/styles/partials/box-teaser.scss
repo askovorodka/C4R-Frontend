@@ -1,0 +1,142 @@
+@mixin box-hover($color) {
+  background: radial-gradient(closest-side, transparentize($color, .75), transparentize($color, .94) 33%, transparent 79%);
+  background: {
+    position: 50% -65px;
+    size: 130% 260%;
+    repeat: no-repeat;
+  }
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 195px;
+  height: 200px;
+  font-family: 'Roboto', 'Avenir', sans-serif;
+  overflow: hidden;
+  transition: none;
+  &:hover {
+    @include box-hover(#fff);
+  }
+  &__img {
+    width: 140px;
+    height: 140px;
+  }
+  &__name {
+    text-align: center;
+    font-size: 14px;
+    color: #b0b2c1;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+}
+.new-ru::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_new.png');
+}
+.new-en::before, .new-pl::before, .new-pt::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_new_en.png');
+}
+.discount-ru::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_discount.png');
+}
+.discount-en::before, .discount-pl::before, .discount-pt::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_discount_en.png');
+}
+.offer-ru::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_offer.png');
+}
+.offer-en::before, .offer-pl::before, .offer-pt::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_offer_en.png');
+}
+.popular-ru::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_popular.png');
+}
+.popular-en::before, .popular-pl::before, .popular-pt::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_popular_en.png');
+}
+.battle-ru::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_caseBattle.png');
+}
+.battle-en::before, .battle-pl::before, .battle-pt::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_caseBattle_en.png');
+}
+.battle_winner-ru::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_caseBattleWinner.png');
+}
+.battle_winner-en::before, .battle_winner-pl::before, .battle_winner-pt::before {
+  content: '';
+  width: 69px;
+  height: 68px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/saleType/icon_caseBattleWinner_en.png');
+}

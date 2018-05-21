@@ -1,0 +1,24 @@
+{
+  "NAV": {
+    "ABOUT": "О нас",
+    "COMMUNITY": "Сообщество",
+    "VIP_CLUB": "VIP Клуб",
+    "INVENTORY": "Инвентарь",
+    "HELP": "Помощь",
+    "PROFILE": "Профиль",
+    "TRADE_URL": "Ссылка обмена",
+    "LOGOUT": "Выйти",
+    "TERMS_AND_CONDITIONS": "Условия и сроки",
+    "HOW_TO_PAY": "Как платить",
+    "POLICY": "Политика конфиденциальности",
+    "USER_REFUNDS": "Возврат средств",
+    "FAQ": "FAQ",
+    "USER_AGREEMENT": "Пользовательское соглашение",
+    "REFERRAL": "реферал"
+  },
+  "TABS": {
+    "RECENT_DROPS": "Live Дропы",
+    "TOP_DROPS": "Топ Дропы",
+    "REVIEWS": "Отзывы"
+  }
+}

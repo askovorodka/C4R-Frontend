@@ -1,0 +1,43 @@
+.login-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  &__icon {
+    width: 30px;
+  }
+  &__item {
+    margin: 0 2.5px;
+    padding: 0 10px; 
+    height: 44px;
+    width: 45px;
+
+    &:first-child{
+      margin-right: 0;
+    }
+
+    &_vk {
+      background: {
+        color: #507299;
+      }
+    }
+    &_fb {
+      background: {
+        color: #4267b2;
+      }
+    }
+    &_steam {
+      color: #000000;
+      background: {
+        color: #bebcba;
+      }
+    }
+  }
+  &__title {
+    min-width: 56px;
+    text-transform: none;
+    margin-top: 2px;
+    margin-right: 10px;
+    font-family: 'Avenir', Roboto, sans-sefif;
+  }
+}

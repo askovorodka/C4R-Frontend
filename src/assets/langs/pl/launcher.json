@@ -1,0 +1,34 @@
+{
+  "BANNERS": {
+    "WILL_END": "Do końca:"
+  },
+  "NEWS": "Nowości",
+  "IMPORTANT": "Ważne",
+  "OFFERS": "Oferty",
+  "READ_MORE": "Więcej informacji",
+  "ALL_NEWS": "Wszystkie nowości",
+  "NEWS_CONTENT": {
+    "ALL_NEWS": "Wszystkie nowości",
+    "READ_MORE": "Więcej informacji",
+    "COMMUNITY_LINK": "https://community-en.cases4real.com/"
+  },
+  "IMPORTANT_CONTENT": {
+    "ITEM1": "Wyprzedaż 1",
+    "ITEM2": "Wyprzedaż 2",
+    "ITEM3": "Wyprzedaż 3"
+  },
+  "OFFERS_CONTENT": {
+    "ITEM1": {
+      "DESCRIPTION": "Niesłychane! Bronie, granaty i nie tylko!",
+      "BUTTON_NAME": "Akceptuj"
+    },
+    "ITEM2": {
+      "DESCRIPTION": "Niesłychane! Bronie, granaty i nie tylko!",
+      "BUTTON_NAME": "Akceptuj"
+    },
+    "ITEM3": {
+      "DESCRIPTION": "Zagraj w CS",
+      "BUTTON_NAME": "Wolę DOTA"
+    }
+  }
+}

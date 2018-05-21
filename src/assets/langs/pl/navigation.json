@@ -1,0 +1,24 @@
+{
+  "NAV": {
+    "ABOUT": "O stronie",
+    "COMMUNITY": "Community",
+    "VIP_CLUB": "VIP Club",
+    "INVENTORY": "Inwentarz",
+    "HELP": "Pomoc",
+    "PROFILE": "Profil",
+    "TRADE_URL": "Łącze handlu",
+    "LOGOUT": "Wyloguj",
+    "TERMS_AND_CONDITIONS": "Zasady i warunki",
+    "HOW_TO_PAY": "Jak płacić",
+    "POLICY": "Polityka prywatności",
+    "USER_REFUNDS": "Refundacje",
+    "FAQ": "FAQ",
+    "USER_AGREEMENT": "Umowa użytkownika",
+    "REFERRAL": "osoba polecająca"
+  },
+  "TABS": {
+    "RECENT_DROPS": "Ostatnie zrzuty",
+    "TOP_DROPS": "Najlepsze zrzuty",
+    "REVIEWS": "Oceny"
+  }
+}

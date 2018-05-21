@@ -1,0 +1,132 @@
+.select{
+  position: relative;
+  &__container{
+    @include flex(stretch, flex-start, row);
+    position: relative;
+    z-index: 1;
+  }
+  &__toggle{
+    position: relative;
+    left: -1px;
+    padding: 0 12px;
+    .arrow{
+      transform: rotate(-90deg) translateX(-2px);    
+    }
+    &.box-decor{
+      &:after{
+        border-width: 11px;
+      }
+    }
+    &_opened{
+      .arrow{
+        transform: rotate(90deg);
+      }
+    }
+  }
+  &__placeholder{
+    flex-grow: 1;
+    padding: 5px;
+    background-color: $bg__color_main;
+    font-size: $text__size_s;
+  }
+  &__decor{
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: 12px;
+    height: 12px;
+  }
+  &__options{
+    position: absolute;
+    bottom: 1px;
+    left: -75px;
+    width: calc(100% + 72px);
+    transform: translateY(100%);
+    background-color: $bg__color_main;
+    &-decor{
+      opacity: 0;
+      position: absolute;
+      z-index: 2;
+      right: 1px;
+      bottom: 0;
+      width: 1px;
+      height: 11px;
+      background-color: $border__color_main;
+    }
+    & + .select__options-decor{
+      opacity: 1;
+    }
+  }
+
+  &:hover{
+    .select{
+      &__placeholder{
+        border-color: $border__color_hover;
+      }
+      &__toggle{
+        border-color: $border__color_hover;
+        .arrow__elem{
+          stroke: $border__color_hover-bright;
+        }
+      }
+    }
+    .box-decor__line{
+      stroke: $border__color_hover;
+    }
+  }
+
+  &__content{
+    &_type{
+      &_list{
+        padding: 15px;
+      }
+      &_from-to{
+        @include flex(stretch, space-between, column);
+        padding:{
+          left: 45px;
+          top: 15px;
+        }
+        height: 150px;
+      }
+    }
+  }
+  &__fieldset{
+    &::before{
+      position: absolute;
+      left: -30px;
+      top: 5px;      
+      font-size: 2em;
+    }
+    &_type{
+      &_from{
+        &::before{
+          content: ">";        
+        }
+      }
+      &_to{
+        &::before{
+          content: "<";
+        }
+      }
+    }
+  }
+  &__input{
+    display: inline-block;
+    width: 98px;
+    height: 35px;
+  }
+  &__btn{
+    margin:{
+      right: 2px;
+      bottom: 2px;
+    }
+  }
+  &__currency{
+    display: inline;
+    margin-left: 15px;
+    vertical-align: middle;
+    .currency__symb{
+      stroke: $text__color_main;
+    }
+  }
+}

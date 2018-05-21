@@ -1,0 +1,151 @@
+{
+  "LOGIN": "Zarejestruj się",
+  "ADD_FUNDS": "Dodaj fundusze",
+  "LOGIN_FOR_CONTINUE": "Zaloguj się, aby kontynuować",
+
+  "TICKER": {
+    "CASES": "Otwarto skrzyń",
+    "USERS": "Użytkownicy",
+    "ONLINE": "Online"
+  },
+  
+  "SOCIAL_BUTTONS": {
+    "TEXT1": "Śledź nas w mediach społecznościowych",
+    "TEXT2": "Zdobądź nowości i prezenty od Cases4Real"
+  },
+  
+  "INTRODUCTION": {
+    "SERVICE_INFO": {
+      "MAIN_HEADER": "skrzynie CS:GO,",
+      "SECOND_HEADER": "które chcesz otworzyć",
+      "HEAD_REAL": "PEŁNA PRZEJRZYSTOŚĆ",
+      "HEAD_DELIVERY": "NATYCHMIASTOWA DOSTAWA CAŁĄ DOBĘ",
+      "HEAD_CASH_BACK": "WSPANIAŁY ZWROT GOTÓWKI",
+      "TEXT_REAL": "Nie tworzymy fałszywych recenzji o Cases4Real i nie płacimy video bloggerom za nagrywanie filmików z otwierania skrzyń ustawionych tak, aby mieli większą szansę wygrać drogie przedmioty z cs go",
+      "TEXT_DELIVERY": "Przedmioty zostaną wysłane w ciągu 30 sekund od wylosowania. W razie jakichkolwiek pytań, prosimy o kontakt z działem obsługi klienta.",
+      "TEXT_CASH_BACK": "Nie podobają Ci się wylosowane przedmioty? Sprzedaj je po dużo lepszej cenie na Rynku Społeczności Steam.",
+      "IMG_CASH_BACK": "imgCashBack_en"
+    }
+  },
+
+  "USERCARD": {
+    "CHICKEN_LEFT": "Kurze jajo III",
+    "CHICKEN_RIGHT": "Kurze jajo IV",
+    "OPEN_CASE": "Otworzył skrzynię 5 dni temu",
+    "CONNECT": {
+      "VK": "Dodaj konto Vkontakte",
+      "FB": "Dodaj konto Facebook",
+      "STEAM": "Dodaj konto Steam"
+    }
+  },
+
+  "LIVE_DROP": {
+    "REVIEWS": {
+      "WON": "Wygrano",
+      "FROM": "z",
+      "AGO": "wstecz",
+      "DROP": "Przedmioty",
+      "CASES": "skrzynie",
+      "DAYS": "dni",
+      "HOURS": "godzin",
+      "MINUTES": "minut",
+      "SECONDS": "sekund"
+    }
+  },
+
+  "PAY_BOTTOM": {
+    "TEXT": "Niech szczęście ci sprzyja ;)"
+  },
+
+  "NAV": {
+    "ABOUT": "O stronie",
+    "COMMUNITY": "Community",
+    "VIP_CLUB": "VIP Club",
+    "INVENTORY": "Inwentarz",
+    "HELP": "Pomoc",
+    "PROFILE": "Profil",
+    "TRADE_URL": "Łącze handlu",
+    "LOGOUT": "Wyloguj",
+    "TERMS_AND_CONDITIONS": "Zasady i warunki",
+    "HOW_TO_PAY": "Jak płacić",
+    "POLICY": "Polityka prywatności",
+    "USER_REFUNDS": "Refundacje",
+    "FAQ": "FAQ",
+    "USER_AGREEMENT": "Umowa użytkownika"
+  },
+
+  "PROFILE": {
+    "NAV": {
+      "INVENTORY": "Przedmioty",
+      "HISTORY": "Historia"
+    },
+    "ACTIONS": {
+      "TO_INVENTORY": "Powrót do inwentarza"
+    },
+    "BUTTONS": {
+      "SELL": "Sprzedaj wybrane przedmioty za",
+      "TAKE": "Zatwierdź"
+    },
+    "WARNINGS": {
+      "TRADE_URL": "Nieprawidłowy link transakcji",
+      "TRADE_URL_LINK": ""
+    },
+    "LINES":{
+      "CHOSEN": "the chosen"
+    }
+  },
+
+  "FOOTER": {
+    "FOOTER_HEADING": "Sposoby płatności",
+    "WEB_MONEY": "Web money",
+    "QIWI": "Qiwi",
+    "VISA": "Visa",
+    "MASTER_CARD": "Master card",
+    "YANDEX": "Yandex",
+    "G2A": "G2A",
+    "RIGHTS": "© 4real Ltd. Wszystkie prawa zastrzeżone. Wszystkie wymienione tu nazwy marek są zarejestrowane i stanowią własność ich właścicieli.",
+    "CONTACTS": "SKONTAKTUJ SIĘ Z NAMI",
+    "OFFICIAL_DATA": "IBAN: AE540520002510921310039 Noor Bank, Building 1, Level 8, Emaar Square, Downtown Dubai, PO Box 8822, Dubai, United Arab Emirates."
+  },
+
+  "TRADE_URL": {
+    "HEADER_MESSAGE": "Wprowadź swój URL transakcji Steam",
+    "BOX_TOP_MESSAGE": "Uwaga! Nigdy nie poprosimy cię o zmianę linku lub przekazanie nam loginu lub hasła do konta Steam. Nie ufaj oszustom próbującym podawać się za administratorów i moderatorów Cases4Real!",
+    "BOX_LINK_MESSAGE": "Link do naszego konta:",
+    "BOX_DANGER_MESSAGE": "UWAGA! W PRZYPADKU GDY NIE WPROWADZISZ POPRAWNEGO URL TRANSAKCJI, NASZ BOT NIE BĘDZIE MÓGŁ PRZESŁAĆ CI WYGRANYCH PRZEDMIOTÓW.",
+    "BUTTON": "Zapisz link",
+    "GO_TO_STEAM_BUTTON": {
+      "PART1": "Potwierdź ",
+      "PART2": " konta Steam"
+    },
+    "HOW_TO_FIND": {
+      "HEADER": "Jak znaleźć link transakcji",
+      "STEAM": "1. Bezpośrednio w serwisie Steam",
+      "BROWSER": "2. W dowolnej przeglądarce",
+      "STEP1": "Zaloguj się do serwisu Steam: ",
+      "STEP2": "Przejdź do",
+      "STEP3": "Sprawdź, czy Twój ekwipunek jest otwarty na stronie",
+      "STEP4": "Interfejs jest taki sam jak w serwisie Steam",
+      "STEP5": "Po dodaniu linka musisz potwierdzić, że Twój ekwipunek jest otwarty, a konto nie jest zablokowane do wykonywania transakcji.",
+      "STEP6": "Istnieje 7-dniowa blokada nałożona dla graczy, którzy niedawno włączyli lub wyłączyli system ochrony Steam Guard lub zalogowali się z nowego urządzenia",
+      "STEP7": "Nie martw się, że coś zepsujesz! Nasz system nie pozwoli na wprowadzenie nieważnego linku, a wszelkie inne problemy można zgłaszać w dowolnym czasie. Jeśli zajdzie taka potrzeba, zawsze możemy ponownie wysłać przedmiot. W przeciwieństwie do naszej konkurencji, nasi użytkownicy otrzymują od nas wsparcie przez cały czas i pomagamy im w odebraniu wygranych nagród w sposób całkowicie przejrzysty."
+    }
+  },
+  "ITEM_ERROR":{
+    "DECISION": "Make a Decision",
+    "SENDING": "Sending",
+    "DELIVERED": "Delivered",
+    "SOLD": "Sold",
+    "BOT_ERROR": "Error",
+    "OUT_OF_STOCK": "Out of stock",
+    "EXPIRED": "Trade offer expired",
+    "INVENTORY_CLOSED": "Inventory closed",
+    "TRADE_BAN": "Trade ban",
+    "SENT": "Sent",
+    "CANNOT_TRADE": "Trade ban",
+    "CONFIRMATION": "Verification",
+    "INVALID_TRADE_URL": "Invalid Trade URL",
+    "BLACK_LISTED": "Forbidden",
+    "BLOCKED": "Forbidden"
+  }
+}

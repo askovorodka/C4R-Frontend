@@ -1,0 +1,217 @@
+.usercard_container{
+  display: block;
+  min-width: 270px;
+  height: 430px;
+  padding-right:10px;
+  margin-top: 40px;
+  z-index: 0;
+  & .logo_block {
+    display: block;
+    width:100%;
+    height: 166px;
+    & .image {
+      display: block;
+      width:100%;
+      height: 150px;
+      position: relative;
+      & .img {
+        width: 120px;
+        height: 120px;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        position: absolute;
+        & img {
+          position: absolute;
+          left:0;
+          top:0;
+          z-index: 9;
+        }
+        & .crown {
+          position: absolute;
+          display: block;
+          width:71px;
+          height: 72px;
+          left: -40px;
+          top: -38px;
+          z-index: 10;
+        }
+      }
+    }
+    & .username {
+      display: block;
+      width: 100%;
+      height: 16px;
+      line-height: 16px;
+      text-align: center;
+      vertical-align: middle;
+      color: #70737d;
+    }
+    & .crown svg {
+      fill-rule: evenodd;
+      fill: rgb(255, 190, 29);
+    }
+  }
+
+  & .rating_block {
+    position: relative;
+    margin-top: 17px;
+    display: block;
+    width:100%;
+    height: 150px;
+    border-bottom: 1px solid #36374d;
+    &::after {
+      position: absolute;
+      display: block;
+      content: ' ';
+      border-top: 1px solid #12161d;
+      bottom: 0;
+      width: 100%;
+    }
+
+    & .rating_title {
+      display: block;
+      width: 100%;
+      height: 30px;
+      &> span {
+        display: inline-block;
+        width: 50%;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      &> span:nth-child(1){
+        text-align: left;
+      }
+      &> span:nth-child(2) {
+        text-align: right;
+        color: #ffbe1d;
+      }
+    }
+    & .rating_bar {
+      display: block;
+      width: 100%;
+      height: 45px;
+      border: 1px solid #232537;
+      border-bottom: 2px solid #373a48;
+      background-color: #222434;;
+      & div {
+        display: inline-block;
+        position: relative;
+        height: 45px;
+      }
+      & .rating_bar_left {
+        background-color: #5a5e64;
+        color:#fff;
+        border-bottom: 1px solid #12161d;
+        border-top: 1px solid #73757c;
+        &> .rating_bar_egg{
+          position: absolute;
+          left:12px;
+          top:0;
+          bottom: 0;
+          margin-top: auto;
+          margin-bottom: auto;
+          width: 21px;
+          height: 31px;
+          background: url("/assets/images/icons/login/egg_gold.png") no-repeat left top;
+        }
+
+        &> .rating_bar_rating {
+          position: absolute;
+          right:5px;
+          top:0;
+          bottom: 0;
+          margin-top: auto;
+          margin-bottom: auto;
+          white-space: nowrap;
+          height: 16px;
+        }
+      }
+      & .rating_bar_right {
+        background-color: #222434;
+        &> .rating_bar_egg_super {
+          position: absolute;
+          top:0;
+          bottom: 0;
+          margin-bottom: auto;
+          margin-top: auto;
+          right:12px;
+          width:64px;
+          height: 33px;
+          background: url("/assets/images/icons/login/egg_gold_super.png") no-repeat left top;
+        }
+      }
+    }
+    & .rating_description {
+      width: 100%;
+      height: 40px;
+      overflow: hidden;
+      text-align: center;
+      vertical-align: middle;
+      color: #70737d;
+      margin-top: 17px;
+      padding-bottom: 5px;
+    }
+
+  }
+
+  .social_block {
+    padding-top: 20px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    white-space: nowrap;
+    &>a {
+      font-family: "social";
+      font-size: 32px;
+      width: 65px;
+      height: 65px;
+      line-height: 65px;
+
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      margin: 0 5px;
+      cursor: pointer;
+
+
+      color: $text__color_social-hover;
+      border-top: 1px solid #6d8aaa;
+      background: {
+        color: $bg__color-social-hover;
+      }
+
+    }
+    &>.fb {
+      &::before {
+        content: '\e801';
+      }
+    }
+    &>.vk {
+      &::before {
+        content: '\e800';
+      }
+    }
+    &>.steam {
+      &::before {
+        content: '\e803';
+      }
+    }
+    &>a[disabled] {
+      cursor: default;
+      border-top: 1px solid #424f6f;
+      color: $text__color_social;
+      background: {
+        color: $bg__color-social;
+      }
+    }
+
+  }
+
+}
+

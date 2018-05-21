@@ -1,0 +1,37 @@
+.caseMonster{
+  margin: 0 18px;
+  width: 160px;
+  img{
+    width: 160px;
+    height: 160px;
+  }
+  .price{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -13px;
+    color: white;
+    margin-bottom: 10px;
+    span{
+      font-size: 14px;
+      line-height: 16px;
+      text-transform: uppercase;
+      font-family: 'Avenir' ,sans-serif;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      padding-bottom: 6px;
+    }
+    div{
+      margin-top: 5px;
+      flex-direction: row;
+      span{
+        font-size: 21px;
+        line-height: 23px;
+      }
+      .currency{
+        margin-top: -6px;
+      }
+    }
+
+  }
+}

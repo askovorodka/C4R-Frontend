@@ -1,0 +1,9 @@
+.arrow{
+    transition: all .3s ease;
+    transform-origin: center;
+    &__elem {
+      transition: all .2s ease;
+      stroke: #676e81;
+      stroke-width: 2px;
+    }
+  }

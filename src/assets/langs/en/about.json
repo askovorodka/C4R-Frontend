@@ -1,0 +1,371 @@
+{
+  "PAGE_TITLE":"About Cases4Real",
+  "NAV": {
+    "CASES":"CS:GO Cases",
+    "MECHANICS":"Game Mechanics",
+    "COMPANY":"About Company",
+    "CONTACTS":"Contacts",
+    "POLICY":"Privacy policy",
+    "AGREEMENT":"User agreement",
+    "SECRET":"Secret cases",
+    "MONSTER":"Monster-cases",
+    "EXP":"Experience",
+    "POWER":"Power cases"
+  },
+  "BOXES": {
+    "FIRST_DESCR":"Skins are the unique texture of the character's equipment in online games that the player can use instead of the standard textures. These items are intended only to improve the aesthetic perception of the game character. Our experts collect CS GO skins and pack them into a case, and you can drop them out by opening the case. Don’t you play in CS GO, one of the most popular games in the world? Then it's time to download the game client and start:",
+    "THIRD_DESCR":"Our site gives everyone the opportunity to get the skins from cases at the best prices and with high chances. We provide a huge range of cases starting from those that users already know from the game, ending with unique assemblies and interesting mechanics. All our cases are divided into several groups:",
+    "GRID": {
+      "POWER":"Power Cases",
+      "POWER_POP":{
+        "LINE1":"Cases with special game",
+        "LINE2":"mechanics, developed by us",
+        "LINE3":"specially at the request of our",
+        "LINE4":"players. Because we care about",
+        "LINE5":"you"
+      },
+      "SECRET":"Secret cases",
+      "SECRET_POP": {
+        "LINE_1":"A range of cases with a limited number of openings per day, which depends on your rank.",
+        "LINE_2":"Read more in the",
+        "LINE_3":"\"Secret cases\""
+      },
+      "MONSTER":"Monster cases",
+      "MONSTER_POP":{
+        "LINE_1":"These unique cases allow you to get not sole, but several skins at once!",
+        "LINE_2":"Read more in the",
+        "LINE_3":"\"Monster cases\""
+      },
+      "NEW":"News",
+      "NEW_POP":"No description",
+      "SALE":"Hot sales",
+      "SALE_POP":"No description",
+      "SETS":"Case rules",
+      "SETS_POP":"This category includes a variety of users' favourite cases, which they like to open the most",
+      "BUILDS":"Our assemblies",
+      "BUILDS_POP":"This you won't find anywhere else! Exclusive cases of our site!",
+      "COLLECTIONS":"Collections",
+      "COLLECTIONS_POP":"This includes standard cases from CS Global Offensive",
+      "LUCK":{
+        "LINE1":"Let the luck be",
+        "LINE2":"with you ;)"
+      }
+    }
+  },
+  "MECHANICS": {
+    "SECRET": {
+      "TITLE": "Secret cases",
+      "FIRST_DESCR":"Opening cases on our website you raise your rank, which makes it possible to open unique \"Secret cases\"!",
+      "SECOND_DESCR":"They are remarkable for an increased chance of cool skins drop. The chance is so great that we had to limit the number of daily openings of each \"Secret Case\"."
+    },
+    "MONSTER": {
+      "TITLE":"Monster Case",
+      "FIRST_DESCR":"Monster Case is a unique line of cases, created specially for Cases4Real.",
+      "SECOND_DESCR":"When you open the Monster Case you get several cool skins from different categories at once. Each Monster Case has its own personal categories with excellent skins.",
+      "THIRD_DESCR":"When you open the case several categories are randomly selected from which the skins will drop. More than at Gaben's cases, mare generous than anywhere else! ",
+      "FOURTH_DESCR":"The description and a set of skins of each specific category can be found in the block \"Items in case\", on the page of the Monster case. ",
+      "FIFTH_DESCR":"Pay attention to the new rating system: compete with other players in the amounts of the obtained drop from Monster Cases. Defeat the Monsters and seize their skins!"
+    },
+    "EXP": {
+      "TITLE":"Experience",
+      "FIRST_DESCR":"Open the cases on our website and get great awards! Earn experience by opening Cases on our site to raise the rank of your profile! The higher your rank is; the cooler rewards you can get.",
+      "SECOND_DESCR":"Already now, improving your level you will get the access to the exclusive Secret Cases, the chance to drop an expensive gun from which is even higher than from the usual cases.",
+      "THIRD_DESCR":"But that's not all! We are preparing a special bonus system that gives rewards for each raised rank.",
+      "FOURTH_DESCR":"Open cases, earn experience, and raise your rank right now! "
+    },
+    "POWER": {
+      "TITLE":"Power Cases",
+      "SUBTITLE": {
+        "1":"Homecoming",
+        "2":"A new hope",
+        "3":"Jokes on you"
+      },
+      "RETURN_DESCR": {
+        "1":"Come to the site every day and get a free charge for the case!",
+        "2":"For every three charges received, the level of your case will increase until it reaches the fourth level, the highest one. Opening of this case is absolutely free!",
+        "3":"There is only one condition, the replenishment of the balance for a certain amount, namely: <br />1 level - $1; <br />2 level - $3; <br />3 level - $7; <br />4 level - $17.",
+        "4":"This amount you can spend on opening of other cases, and Homecoming case you can open for free! The higher the level of the Case is; the better items it contains. For more information about items in the Case you can open its page and go on the «Items in Case» tab after having selected one of the four levels.",
+        "5":"Important! Opening of the Case \"Homecoming\" completely zeroes its charges, as well as the counter of the replenishment for the last 30 days. The level of the Case itself can not be lowered."
+      },
+      "HOPE_DESCR": {
+        "1":"Have not been so lucky? Now this is not a problem! Collect the charges of the case \"A New Hope\"! <br />Each opened Case which cost has not been recovered will increase the lever of that Case. <br />The higher you raise the level of the case, the cooler the drop is!",
+        "2":"The case is absolutely free and does not require anything except the charges to open it. Opening of the \"New Hope\" is possible at any time after achieving the 1 level of the case. ",
+        "3":"For more information about the items in a case, please, open its page on the block \"Items in case\" selecting one of nine levels.",
+        "4":"Important! Opening the case \"A New Hope\" completely resets all accumulated charges! This is the only possible way of lowering the level of the case. "
+      },
+      "JOKER_DESCR": {
+        "1":"By opening the cases on the site with a low probability you can get a special item - \"Joker\".",
+        "2":"Depending on the opened case he will add from one to twelve charges of the case \"Jokes on You\".",
+        "3":"By accumulating charges from the \"Jokers\" you will raise the level of the case until you reach the maximum fifth level. The opening of \"Jokes on you\" is completely free and is possible after obtaining of the 1 level of the case. The hidden items will please even the most experienced Counter-Strike player! ",
+        "4":"For more information about items in the Case you can open its page and go on the \"Items in Case\" tab after having selected one of the five levels."
+      }
+    }
+  },
+  "COMPANY":{
+    "PARAGRAPH_1":"Cases4real is the site devoted to cases with skins for",
+    "PARAGRAPH_2":"By opening case the player gets the probability of dropping the item, the list of items can be seen in the below description of each case. Cases may vary by content, theme, style, cost, number of dropping items and other criteria. Ability to open the cases exist in the game CS: GO, however, the choice of cases and the probability of drop of high-quality skins are significantly different. That's why we collect unique cases with expensive and high-quality skins, regularly adjust the list of cases for all price groups, prepare for you a prompt and professional support service, and regularly carry out the contests and giveaways.",
+    "PARAGRAPH_3":"Welcome to Cases4Real!"
+  },
+  "CONTACTS":{
+    "NAME":"SUNCOM FZE",
+    "LINE_1":"United Arab Emirates Ras At Khaimah AI-Jazeera AI-Hamra RAKIA Amenity center Tower 1 12 floor",
+    "LINE_2":"Support: ",
+    "LINE_3":"Business inquiries and advertising: ",
+    "LINE_4":"Administration contact: "
+  },
+  "POLICY":{
+    "P0":{
+      "DATE":"Date of renewal: 14 August 2017",
+      "1":"The Company “Suncom FZE” and its affiliated companies (hereinafter — “Suncom FZE” , “we”, “our” or “us”) pays particular attention to protection of confidentiality of our users (hereinafter — “users” or “you”). In your Policy of confidentiality (hereinafter — «Policy») methods of collection of information we use are described, including personal information you give or which is collected by us on our web-sites including Cases4Real.com (all together — “Service”) as well as methods of storage and use of such information and handling with it. Please, be informed, that the area of application of this Policy is limited by information collected and received by the Company “Suncom FZE” with your help of the use of this Service. The Company “Suncom FZE” is not responsible for actions of the third parties or companies, for the content of their sites, for the use of information you give and for any products and services they can offer. Any links of such sites do not mean our sponsorship of these persons and companies or the fact, that we have any relationship with them.",
+      "2":"Using the Service you express your consent with this Policy of Confidentiality and give your consent on collection, transmission, manipulation, storage, disclosure and other types of use of your information as described in the current Policy of Confidentiality. Notwithstanding the fact where you live or from which country you give information you transfer to us the right to use information in any country where “Suncom FZE” works, including your personal data according to the rules stated in this Policy. If you do not agree with these conditions, please, do not use this Service. "
+    },
+    "P1":{
+      "TITLE":"1. Collection and use of information",
+      "1":"1.1. The company “Suncom FZE” does not have intention to collect information which relates according to the current legislation to your personal data as well as to personal data of your employees and contractors, for example, surname, name, patronymic, year, month, date and place of birth, address, name of the company, place of job, telephone number, e-mail address and other information («Personal data»), via sites which below to the company, except the cases when Personal data was given by you voluntarily.",
+      "2":"1.2. The company “Suncom FZE” executes collection of information according to description given below. The company “Suncom FZE” executes collection of information first of all in order to create your profile, to provide you with services, to improve our Service and to communicate with you, to execute investigations and to make reports for the internal use. We keep information in full correspondence with international and national legislation in the places of presence of the Service and provision of services. Data of the Russian users is stored on servers which are located on the territory of the Russian Federation.",
+      "3":"1.3. The company “Suncom FZE” has the full right to execute trans-border transmission of data, creation of replicates of users` data bases, processing and storage of information on the servers and equipment which are located in the countries with high level of protection of personal data according to Convention of protection of physical persons in the course of computerized processing of personal data (ETS N 108) dated 28 January 1981 (with amendments dated 15 June 1999).",
+      "4":"1.4. The company “Suncom FZE” uses information collected with the help of the Service for the following goals:",
+      "5":"communication with you and the third persons;",
+      "6":"processing of your requests and transactions;",
+      "7":"improvement of the Service;",
+      "8":"customization of the Service according to your needs;",
+      "9":"development of our Service;",
+      "10":"marketing analysis;",
+      "11":"goals related with our business."
+    },
+    "P2":{
+      "TITLE":"2. Web-sites of Suncom FZE",
+      "1":"When you visit web-sites of “Suncom FZE”, automatic collection and maintenance in files of logs of the following data can be executed: data about computer`s operation system, IP-address, data about time of the visit, browser type, language and links of the web-sites from which you logged on our web-site. We can apply this information for the purposes of monitoring, development and analysis of your use of this Service. Furthermore, we can ask you to provide us with the following data of personal character which we can process. This data includes besides all other data: your name, profile photo, your gender, age or date of birth, links on your profiles on social networks or other sites of the third persons, user`s name, as well post address and e-mail. We can use this information to create user`s profile and provide you with services. We can use your e-mail for communication with you in order to know your opinion about Services of “Suncom FZE”, as well as in order to inform you about the news of the company and special offers. Data of your gender and date of birth can be used for analysis of user`s tendencies and advertising materials which are oriented at the targeted audience. Your e-mail can be used for sending you any goods or souvenirs used as advertising materials. If you don`t want to receive advertising materials of such type, you can any time refuse from its reception having sent them e-mail on the following address: "
+    },
+    "P3":{
+      "TITLE":"3. Social networks (elements) and mini-applications",
+      "1":"On our web-site there are elements of social networks such as buttons VK and Facebook “I like” and widgets such as the button “Share” or interactive mini-programs working on our site. Such Elements can register your IP-address and information of pages you visited on our site. They can also maintain files cookies which is necessary for the correct functioning of such Elements. Elements and widgets of social networks are placed at the third persons or directly on our Site. Your interaction with such Elements is regulated by the policy of confidentiality of company which provides them."
+    },
+    "P4":{
+      "TITLE":"4. Customer service",
+      "1":"4.1. When you apply to our service of clients` support, we can maintain your e-mail and use it in order to use it for the contact with you, to ask you about your impressions from the Services of “Suncom FZE” and to inform you about the news of the company and special offers. If you don`t want to receive e-mails, you can anytime refuse from them having pressed the link of refusal from subscription which is in the bottom of each e-mail or having written to the following address: ",
+      "2":"4.2. The Company “Suncom FZE” executes users` support of the Service as by e-mail support@cases4real.com, as well as by applications for instant change of messages including Telegram, Viber, WhatsApp. Answers on the questions of users and their requests concerning problems with the Service are provided by any free representatives of the Company “Suncom FZE” within one working day."
+    },
+    "P5":{
+      "TITLE":"5. Push-notifications of browser",
+      "1":"With assistance of your browser client we can from time to time send you push-notifications in order to provide you with updates for the Service, data of new products and other messages related with services which can be important for you. You can any time refuse from communications of such type and switch them off having changed appropriate settings in browser."
+    },
+    "P6":{
+      "TITLE":"6. Other methods of collection of information",
+      "1":"6.1. We can also receive information from you with the help of: (1) your participation in inquiries concerning the Service; or (2) your participation in actions and pranks which are held in the framework of the Service.",
+      "2":"6.2. We can give you opportunity to participate in actions and pranks which are announced in the framework of our Service. If you decide to participate, we will ask you to give us definite personal information. Participation in these actions and pranks is absolutely voluntary, that is why it is up to you to decide if you give us such information or not. Requested information, as a rule, includes contact data (for example, name and address for delivery) and demographic information (for example, post index).",
+      "3":"We will use this information in order to inform winners and to give them prizes, to follow the traffic and personalize the Service we provide you. Such actions and pranks can be held by external suppliers of services; it will be prohibited to such company to use personal information of users for any other purposes."
+    },
+    "P7":{
+      "TITLE":"7. Technologies of tracking",
+      "1":"7.1. We and our partners in marketing and outsourcing, affiliated companies and suppliers of analytical services use such technologies as files cookies, web-beacons, scripts and tags. It is necessary to identify computer or user`s device and “remember” information connected with your visit on the site, for example, your settings or user`s name and password. Information which contains file cookies can be connected with your personal data (for example, with your user`s identifier) for the purpose of improvement of the quality of our Service, adaptation of recommendations taking into account your interests and simplifying the use of the Service. You can switch off files cookies any time, but after that you won`t be able to get access to some functions of the Service or to use them.",
+      "2":"7.2. We can automatically collect definite information using \"Cookies\". Cookies are small files of data which are stored on the hard disc with assistance of the web-site. Besides all other, the use of cookies helps us to improve the site and your experience on our Service. We use cookies in order to see which areas and peculiarities of the Site are more popular in order to calculate the number of computers which have access to the site, to improve your experience of using the Service and to remember your preferences. If your browser does not accept cookies or if you do not allow access, your access to functional or services can be limited.",
+      "3":"7.3. Web-beacons also known as gifs are electronic images which can be used on the site or in our e-mails. Web-beacon can be used on our web-pages in order to collect information of the use of the Platform and efficiency of our sending of e-mails.",
+      "4":"7.4. We can reflect advertising given to the third parties using of which on your computer or any other device files cookies will be stored which will let you control the content and advertising looked through by you. As external advertising campaigns associate your computer or device with the number, they will be able to identify your computer or device every time when they send you advertising. Such advertisers can use information about your visits of our Service, sites of the third parties and applications in order to analyze efficiency of advertising and to reflect advertising of goods and services which will correspond to your interests. This Policy does not apply to the methods of data collection used by such external advertisers and we are not responsible for them. We recommend you to learn appropriate policy of confidentiality in order to know more thoroughly about the rules of use of files cookies and other technologies."
+    },
+    "P8":{
+      "TITLE":"8. Services of mobile analytics",
+      "1":"We use software of mobile analytics which allows us to understand functionality of our mobile software on your device better. This software can register such information as frequency of use of application, event which take place in application, summarized data of use, data of productivity as well as resource from which application was loaded. We do not connect information maintained in analytical software, with any personal data you transmit via mobile application."
+    },
+    "P9":{
+      "TITLE":"9. Services of the third parties",
+      "1":"In our services there can be used technologies of tracking given by external providers of business-services (for example, Google Analytics and Yandex Metrics). Such technologies of the third parties can use in our services files cookies, API and development kits (SDK), which will allow them in the name of our company to execute collection and analysis of users` information. These external companies can have access to the following data: your device`s identifier, MAC-address, IMEI, region (region where one speaks indicated language), information of geolocation and IP-address. This will allow them to provide their services according to their appropriate policies of confidentiality. Our policy of confidentiality is not expanded on the instruments of tracking of the third parties. We do not have access to such measures of tracking of the third parties and their control."
+    },
+    "P10":{
+      "TITLE":"10. Advertising networks",
+      "1":"10.1 In the Service we provide we can reflect advertising. Advertisers can collect and use information about you, particularly, data about your activity during the session in the Service, data of device`s identifier, MAC-address, IMEI, information of geolocation and IP-address. They can use this information for the purpose of advertising announcements which can be interesting for you.",
+      "2":"10.2 Besides, in other services you can see advertising of our Services. If you click on one of such advertisings and start using the web-site, you will become the user of our Service. In order to confirm the fact of installation, the advertiser can be given device`s identifier."
+    },
+    "P11":{
+      "TITLE":"11. How we use data",
+      "1":"We use information collected via our Service for the purposes which are described in this Policy and brought to your notice in connection with our Service. For example, we can use your information for the following purposes:",
+      "2":"to create profile on one of the web-sites and to allow users to access the Service;",
+      "3":"to provide functioning of our Service and to take measures on its improvement;",
+      "4":"to understand your needы and preferences better in order to provide you with extended opportunities and to give you pleasure from the use of our Service;",
+      "5":"to answer your comments or questions and to provide client`s support;",
+      "6":"on your request to provide you and to deliver products and services to you;",
+      "7":"to send you confirmations about the order, accounts for the payment, technical notifications, updates, preventions of security violation, messages from the technical support service and administrative messages;",
+      "8":"to inform you about special offers, bonuses, coming events and other news about products and services offered by the company “Suncom FZE” and our partners optionally;",
+      "9":"to give you opportunity to communicate with other users;",
+      "10":"to connect or unify it with other information we receive from the third persons in order to understand your needs and preferences better and to provide you with services optimally."
+    },
+    "P12":{
+      "TITLE":"12. Disclosure of your information",
+      "1":"“Suncom FZE” transmits your personal data only if there is your allowance or according to description given below:",
+      "2":"With your consent; for example, when you express consent about the fact, that we can transmit your information to the third parties for marketing purposes of these third parties which will be regulated by appropriate policy of confidentiality of such third parties. If you do not want us to transmit your information to the third parties, please, connect us by e-mail: chief.support@cases4real.com. If you do not want to receive such e-mails from the third parties, please, connect them directly.",
+      "3":"“Suncom FZE” can invite for cooperation other persons and companies which will provide you with services in the name of our company. As an example of such services there can be services of data analysis and clients` service. For provision of such services for “Suncom FZE” these agents and suppliers can have access to your personal data.",
+      "4":"We can disclose your information within the limits allowed by the current legislation, for example, in order to execute decree of the court or in case we are not sure that such disclosure is necessary for execution of law`s requirements; for the purposes of investigation of fraud or giving an answer to authority`s request, for obligatory execution or realization of our rights; for the purpose of protection of rights, property or security as of our own as well as of our users our other persons. It includes change of information with other companies and organizations for the purpose of protection from the fraud.",
+      "5":"The company “Suncom FZE” can transmit your information in the course of merger, selling of our assets or financing or acquisition of all or the part of our assets by another company. You will be informed by e-mail and/or having posted announcement on our web-site of any modifications concerning possession and the use of your personal data.",
+      "6":"We can disclose joint or anonymized data about you to advertisers, editors, business partners, sponsors and other third parties."
+    },
+    "P13":{
+      "TITLE":"13. Modification implementation to this Policy",
+      "1":"We can review this Policy of confidentiality for the purposes of reflection of modifications in our principles of work with information. In case of introduction of any considerable changes we will inform you about it by e-mail (e-mail indicated in your profile) or by posting of this announcement on this Site before these modifications come into effect. We recommend you to visit occasionally this page in order to learn the latest information about our principles of confidentiality preservation."
+    },
+    "P14":{
+      "TITLE":"14. Security",
+      "1":"14.1. The company “Suncom FZE” will take all commercially reasonable measures for protection of your information from unsanctioned access, losses, use for the purposes other than intended as well as unsanctioned modifications by the third parties.",
+      "2":"Notwithstanding the fact that we do everything depending on us in order to store information received from the users of the Service in the safe area, access to which is limited, we cannot guarantee absolute security of information in the course of its transmission via Internet or its storage in our systems. Furthermore, though we try to provide integrity and security of our networks and systems we cannot guarantee that measures of security we use will prevent from penetration of hackers of the third parties for the purpose of receipt of unlawful access to this information. We do not guarantee and do not confirm that your information will be protected from the loss, from the use not as intended or from unsanctioned modification by the third parties. There is no method of data transmission via Internet or electronic storage of data which provides its 100% protection. For this reason we cannot guarantee absolute security.",
+      "3":"If you use password in the Service, you are responsible for its safety in confidence. Do not transmit data with your password to the third parties. If you consider that your password was compromised or stolen, please, inform us immediately. You are responsible for maintenance of the password you use for access to the Service and for any actions or actions executed under your password. We recommend you to use “strong” passwords (passwords which use combination of higher and lower case of letters, numbers and symbols) for your profile. The company “Suncom FZE” can`t and won`t be responsible for any damages or harm resulted from non-conformity of conditions described above."
+    },
+    "P15":{
+      "TITLE":"15. Access to personal information",
+      "1":"If your personal information was changed or if you do not want to use our Service, you can correct, update or delete inexact data having made necessary modification in the settings of your profile or having addressed to e-mail: chief.support@cases4real.com. We will answer to your request of provision of access to information within 30 days."
+    },
+    "P16":{
+      "TITLE":"16. Data storage",
+      "1":"We will store your information until your profile remains active or as required for provision of services. If you want to cancel your profile or if you want us not to use your information to provide you with services, connect us by e-mail: chief.support@cases4real.com. We will store and use your information according to necessity of execution of legal obligations, dispute regulation and realization of agreements."
+    },
+    "P17":{
+      "TITLE":"17. Our Policy with respect to the children",
+      "1":"We do not execute voluntary collection of personal information at children aged under 18, do not ask for it and do not allow them to use our Service. If you are under 18, you should not give information about yourself, particularly, your name, address, telephone number and e-mail. For the persons under 18 it is forbidden to give personal information. If we get to know that we collected information from the child aged under 18, we will immediately delete such information. If you consider that we could receive any information from the child or about the child aged under 18, please, contact us by e-mail:  chief.support@cases4real.com"
+    },
+    "P18":{
+      "TITLE":"18. Refusal from receipt of marketing messages",
+      "1":"18.1 You can refuse from receipt of our advertising or marketing electronic messages. You can do it having executed instructions which are given in such e-mails or having written to the e-mail: chief.support@cases4real.com. If you refuse from receipt of such marketing e-mails, we can continue sending you e-mails with non-advertising content concerning your profile or our continuing business relations.",
+      "2":"18.2 You can also refuse from receipt of our messages-notifications having done it by message or by e-mail: chief.support@cases4real.com."
+    },
+    "p19":{
+      "TITLE":"19. Cross-border data transmission",
+      "1":"We can transfer information collected by you to affiliated companies or to the third parties beyond the country of your residence or your jurisdiction to other countries or jurisdictions globally. Please, be informed, that in these countries and jurisdictions there can be no law of data protection similar to current laws which can exist in your jurisdiction and we take measures in order to provide adequate protection of data in the course of its transfer to other countries and to provide the use and disclosure of information about you including your personal data according to the principles stated in this Policy."
+    },
+    "P20":{
+      "TITLE":"20. Contact information",
+      "1":"United Arab Emirates, Ras-el-Haima,",
+      "2":"Al Jazirah Al Hamra, RAKIA Amenity Center — Tower 1, 12 floor",
+      "3":"If you have questions concerning this Policy, please, address by e-mail: chief.support@cases4real.com"
+    }
+  },
+  "AGREEMENT":{
+    "INTRO": {
+      "DATE":"Date of entering into force: 14 August 2017",
+      "CAPT":"Conditions of the present agreement (“User Agreement”) regulate relationship between you and “Suncom FZE” as well as affiliated persons of the latter (hereinafter – “Suncom FZE” or “we” in any cases concerning the use of the internet-site by you Cases4Real.com (“Service”). The use of the Service is also regulated by the Policy of confidentiality which is the part of the present agreement and is included into it through location of the link."
+    },
+    "P0":{
+      "TITLE":"General conditions",
+      "1":"1. Before receipt of access or beginning of the use of the Service including review of any site of “Suncom FZE” on the Internet or execution of the purchase you should accept the present User Agreement and the Policy of confidentiality. You can also be asked to register your profile for the use of the Service (“Profile”). When you register your Profile or use otherwise the Service, you confirm that you turned 18 years or more and that you understand and agree with the present User Agreement. If you get access to the Service via site of social network (“SSN”) like Facebook or VK as well as via Steam you are obliged to be bound by its terms or User Agreement as well as the present User Agreement.",
+      "2":"2. INSTALLING, USING OR OTHERWISE RECEIVING ACCESS TO THE SERVICE YOU AGREE WITH CONDITIONS OF THE PRESENT TERMS OF SERVICE. IF YOU DON`T AGREE WITH CONDITIONS OF THE PRESENT USER AGREEMENT, DON`T INSTALL, DON`T USE AND DON`T RECEIVE ACCESS TO THE SERVICE OTHERWISE. USING OF THIS SERVICE IS INVALID IF IT IS PROHIBITED BY THE LAW.",
+      "3":"3. “Suncom FZE” safeguards the law in discretion to change, modify, add or exclude parts of the present User Agreement and Policy of confidentiality anytime by posting modified conditions in the Service of “Suncom FZE”. You will be considered as a person who accepted such modifications if you continue using the Service. If at any period of time you do not agree with any part (valid for this period) of the User Agreement, Policy of confidentiality of “Suncom FZE” or any other policy, rules or codes of behavior of “Suncom FZE” relating to the use of the Service your license for the use of the Service immediately stops and you should immediately stop using the Service."
+    },
+    "P1":{
+      "TITLE":"1. License for the use of the Service",
+      "1":"1.1. Granting of the limited license for the use of the Service.",
+      "2":"On the basis of your consent and continuing observance of the present User Agreement and appropriate policies of “Suncom FZE” it gives you non-exclusive, non-transferable, not under sublicensing, revoking license under conditions of limitations granted below, on the access to the Service and its use for your personal non-commercial entertaining goals. You agree not to use the Service for any other purpose."
+    },
+    "P2":{
+      "TITLE":"2. Profile",
+      "1":"2.1. You bear responsibility for the safety of your password. Registration in the Service requires transmission to us of your current e-mail and creation of the appropriate password. We don`t bear responsibility for any losses or damage caused to you in case of the loss of confidentiality and leak of your account data.",
+      "2":"2.2. You are obliged not to create Profile or to receive access to the Service if you are under 18 years. You will take measures for limitation of the use of the Service by the minors and non-admission of the use of the Service by children before 18 years. You are fully responsible for any using of your credit card or any other payment instrument (for example, paypal) by the minors.",
+      "3":"2.3. You are obliged not to sell, not to lend and not to give back your Profile, not to create Profile under false name or with the use of false data or from someone else but you. You are obliged not to use the Service if you were deleted by the employees of the Service before or if your access to any of the Services of “Suncom FZE” was blocked before.",
+      "4":"2.4. You are obliged to use your Profile only for noncommercial purposes. You are obliged not to use the Service for distribution, attraction or transmission of any commercial announcements including letters one by one, junk mail or spam or repeating messages to anyone.",
+      "5":"2.5. You are obliged not to disclose to anyone the Profile or Information for entrance to the system, as well as not to allow, that anyone of you received access to your Profile or any other actions which can endanger your Profile. If you got to know or reasonably suspect, that any violation of security took place including without limitation any cases of loss, theft or disclosure without permission for information for the entrance to the system, you should immediately inform “Suncom FZE”. You exceptionally are responsible for all the cases of using Information including purchases notwithstanding the fact if they are executed with your permission. You are responsible for all actions connected with your Profile.",
+      "6":"2.6. “Suncom FZE” maintains the right to delete or change any name of the users anytime under any case including but not limited by these requirements of the third parties regarding the fact that any user`s name violates rights of the third parties.",
+      "7":"2.7. Regarding “Cases4Real” the Service supports only one Profile for one physical person. You are obliged not to create the Profile if you have the Profile created before. “Suncom FZE” maintains the right to block Profiles which belong to one user if we have enough reasons to assume that they belong to the same person.",
+      "8":"License limitations",
+      "9":"2.8. Any use of the Service in violation of the present License limitations is strictly forbidden, can lead to immediate revocation of your limited license and responsibility for violation of the present User Agreement.",
+      "10":"2.9. You agree under no conditions:",
+      "11":"Not to execute any actions which “Suncom FZE” considers to be contradictory to the sense or intentions of the Service or leading to improper use of supported devices of “Suncom FZE”;",
+      "12":"Not to use cheating, not to exploit vulnerability of the system, not to use computerizing software, bots, software for hacking, modification and any other unsanctioned software of the third persons designated for interference into the Service or any resource of “Suncom FZE” as well as without direct written consent of “Suncom FZE” not to change or to promote modifications of any files which are the part of the Service or any resource of “Suncom FZE”.",
+      "13":"Not to use, copy, adapt, modify, create derivative works on its basis, to distribute, license, sell, transfer, publicly demonstrate execute or otherwise use the content of the Service, its functionality or any of its parts if it is not allowed by the present Agreement. You don`t receive exclusive license and rights on the intellectual property which belongs to “Suncom FZE” and its licensors except the cases stipulated by the present Conditions.",
+      "14":"Not to create, not to help and not to participate otherwise in any type of computer attack including without limitation distribution of the virus, creation of conditions for refusal in services (DoS) or any other attempts to interrupt the Service or the use of the Service by any other person.",
+      "15":"Not to try to get unsanctioned access to the Service, to the registered Profiles of other users or to computers, Servers or networks connected to the Services by all means except user`s interface presented by “Suncom FZE” including but not limited by this by the bypass or modification or incitement or assistance to any other person in bypass or modification of any means of protection, technology, device or software which is the part of the Service.",
+      "16":"Not to distribute any information which contains insult, threat, obscenity, defamation, slander or by any other reasons including racist, sexual and religious is controversial or offensive.",
+      "17":"Not to distribute any information which contains nude, extreme violence or offensive content or which contains the link on such content.",
+      "18":"Not to try to execute harassment, abuse, causing of harm or to promote or to incite another person to execute harassment, abuse, causing harm to another person or group including employees of “Suncom FZE” including representatives of the support service of “Suncom FZE”.",
+      "19":"Not to provide via Service access to any material or information which violates any copyright, right for the trademarks, patent law, right for the secret of production, for the privacy of private life or personal data, right for public distribution of information or any other right of any person or company either to pretend any other person including without limitation employees of “Suncom FZE”.",
+      "20":"Not to post and not to provide via Service access to any material or information including hyper links which fully or partially has relation to the category of information prohibited or limited for distribution in the Russian Federation on the basis of the law and (or) court decision which includes not to use the Service for riotous statement, executing of extremist activity, participation in massive (public) events which are held with violation of the established order.",
+      "21":"Not to use the Service directly or indirectly for public statements to execution of terrorist activity, propaganda, verification and (or) support of terrorism as well as any other crimes.",
+      "22":"Not to execute reverse-engineering, decompile, disassembly, transcription or otherwise not to try to retrieve initial code of any software or any intellectual property on which the Service is based and which is used for provision of the Service or any resource of “Suncom FZE” and not to receive any information from the Service or any resource of “Suncom FZE” using any method except directly permitted by “Suncom FZE”.",
+      "23":"Not to force to distribution and not to force to distribution of personal information from other sources of the Service or any resource of “Suncom FZE”, not to gather and not to post somebody`s personal information including personal data (notwithstanding the form of expression including the text, image or video format), documents identifying personality or financial information via Service.",
+      "24":"2.10. “Suncom FZE” reserves the right to determine if behavior violates the rules of the User Agreement and if it is otherwise out of intentions or sense of the present User Agreement or the service itself. “Suncom FZE” preserves the right to take measures under the results of such estimation which can lead to closing of the Profile and to prohibit the use of the Service fully or partially."
+    },
+    "P3":{
+      "TITLE":"3. Suspension system and termination of the Profile of the Service ",
+      "1":"3.1. WITHOUT LIMITATION OF ANY OTHER REMEDIES AT LAW “SUNCOM FZE” CAN LIMIT, SUSPEND, TERMINATE, MODIFY OR DELETE PROFILES OR ACCESS TO THE SERVICES OF “SUNCOM FZE” OR TO ITS SEPARATE PARTS IF YOU (OR “SUNCOM FZE” SUSPECTS THAT YOU) DO NOT COMPLY WITH THE TERMS OF THE PRESENT USER AGREEMENT BECAUSE OF ANY EXISTING OR SUSPECTED UNLAWFUL OR NOT CORRESPONDING TO THE USE OF THE SERVICE WITH PRELIMINARY NOTIFICATION OR WITHOUT IT. YOU CAN LOOSE YOUR PROFILE BECAUSE OF TERMINATION OR LIMITATION OF THE PROFILE AS WELL AS OF ALL BENEFITS, ADVANTAGES, ACQUIRED ITEMS CONNCECTED WITH THE USE OF THE SERVICE. “SUNCOM FZE” DOESN`T HAVE ANY OBLIGATIONS UNDER COMPENSATION OF ANY EXPENSES OR CONSEQUENCES",
+      "2":"WITHOUT LIMITATION OF ANY OTHER REMEDIES WHICH WE COULD USE. WE CAN LIMIT, SUSPEND OR TERMINATE THE SERVICE AND USERS` PROFILES OR ITS PARTS, TO PROHIBIT ACCESS TO OUR SITES AND TO ITS CONTENT, SERVICES AND INSTRUMENTS, TO DELAY OR TO DELETE POSTED CONTENT AND TO TALE TECHNICAL AND LEGAL MEASURES TO PREVENT FROM THE ACCESS OF USERS IN CASE WE ARE CONVINCED THAT THEY CREATE RISK OR POSSIBILITY OF LEGAL RESPONSIBILITY, VIOLATE INTELLECTUAL RIGHTS OF THE THIRD PARTIES ORACT BEYOND CORRESPONDENCE WITH TEXT OR SENSE OF OUR CONDITIONS OR POLICIES. IN ADDITION, IN APPROPRIATE CONDITIONS AND AT OUR ЫЩДУ DISCRETION WE CAN SUSPEND OR TERMINATE PROFILES OF THE USERS WHICH CAN REPEAT VIOLATIONS OF INTELLECTUAL RIGHTS OF THE THIRD PARTIES.",
+      "3":"3.2. “SUNCOM FZE” RESERVES THE RIGHT TO TERMINATE ACTION OF ANY PROFILE WHICH WAS NOT ACTIVE DURING 180 DAYS.",
+      "4":"“Suncom FZE” reserves the right to terminate offer and/or support of the Service or determined site or the part of the Service anytime. At the moment of such suspension automatically terminates license given to you for the use of the Service or its part. In such case “Suncom FZE” will not have a duty under granting of indemnification , advantages or another compensation to the users because of such terminated access to the Service.",
+      "5":"3.3. ПTermination of validity of your Profile can include termination of your access to the Service or to any of its parts including any content which you granted to us or other users.",
+      "6":"3.4. You can terminate validity of your Profile anytime and under any reason by means of the procedure described on the page of our service of support posted on ",
+      "7":" having informed “Suncom FZE” about the fact that you want to terminate validity of the Profile."
+    },
+    "P4":{
+      "TITLE":"4. Exclusive rights",
+      "1":"4.1. Service",
+      "2":"All rights, title and interest regarding the Service belong to “Suncom FZE”. Used trademarks belong to the suitable proprietors.",
+      "3":"4.2. Profiles",
+      "4":"NOTWITHSTANDING ANY ASPECTS OF THE CONTRARY YOU RECOGNIZE AND AGREE THAT YOU DO NOT HAVE ANY RIGHTS OR ANOTHER PROPERTY INTEREST IN THE PROFILE AND YOU ALSO RECOGNIZE AND AGREE THAT ALL THE RIGHTS REGARDING THE PROFILE AT THE MOMENT AND IN FUTURE WITHOUT LIMITATION OF TIME BELONG TO “SUNCOM FZE” IN THE INTERESTS OF “SUNCOM FZE”.",
+      "5":"4.3. Virtual items",
+      "6":"“Suncom FZE” possesses exclusive rights on the whole content which is used in the Service (all objects of intellectual rights provided on the Service including program code on virtual items, texts, photos, design elements). Notwithstanding any statements of contrary you agree that you have no exclusive right or title on any content which the Service contains including without limitation virtual items or virtual currency used in the Service or proceeding from it notwithstanding the fact if it was earned by the selling of the item or acquired from “Suncom FZE” and at the same time other objects connected with the Profile or relating to the Service.",
+      "7":"4.4.  User content",
+      "8":"«Users content» means any communication, images, sounds as well as materials, data and information you load or transmit via the Service or which other users load or transmit including without limitation the text of any chat. Transmitting and loading any user content in the course of using the Service you agree, legalize and guarantee that such transmission and loading",
+      "9":"(a) is precise and not confidential,",
+      "10":"(b) is not controversial to any laws, contractual limitations or other rights of the third parties and that you have permission from any third person whose personal information or intellectual property is included to the User content;",
+      "11":"(c) does not contain viruses, advertising programs, programs-spies, worms or another harmful software and",
+      "12":"(d) you recognize that any personal information and confidential data in the frame of such content will be always processed by “Suncom FZE” according to the Policy of confidentiality.",
+      "13":"“Suncom FZE” reserves the right on its sole discretion to review, execute monitoring, to prohibit, edit, delete, terminate access or otherwise to make inaccessible any User content (including without limitations your User content) without notifications under a reason or without any."
+    },
+    "P5":{
+      "TITLE":"5. Payment and purchase conditions",
+      "1":"5.1. Purchases",
+      "2":"5.1.1. Within the framework of the Service you can independently acquire limited personal nontransferable revocable exclusive license without the right of sublicense on the use of digital objects:",
+      "3":"(a) «virtual currency», including but not limited by this virtual money expressed as the balance on the site which are designated for the use on the Service,",
+      "4":"(b) «virtual items» represented as game weapon, cases, skins;",
+      "5":"(c) other goods or services (“Goods”).",
+      "6":"5.1.2. “Suncom FZE” has the right to manage, to regulate, control, modify or delete Virtual items and/or the Goods anytime with notification or without any. “Suncom FZE” has no liability neither to you, nor to any third party in case if “Suncom FZE” realizes any of the indicated rights.",
+      "7":"5.1.3. All transmitted licenses for acquired virtual currencies and virtual items are granted extraterritorially (globally) for the whole term of use of exclusive rights in accordance with legislation of applicable law if other is not stipulated in conditions of acquisition of such virtual currencies and virtual items.",
+      "8":"5.1.4. Except the cases when it is directly permitted by the Service you do not have right to sell, discharge or otherwise alienate Virtual items or Goods to any physical or legal person including without limitation “Suncom FZE”, other users and any other third party.",
+      "9":"5.1.5. ALL PURCHASES AND REPAYMENT OF THE VIRTUAL CURRENCY OF THE THIRD PARTIES EXECUTED VIA THE SERVICE ARE FINAL AND NON-REFUNDABLE.",
+      "10":"5.1.6. Granting of Virtual items for the use on Cases4Real.com is the Service of “Suncom FZE”, provision of which begins immediately at acceptance of your purchase “Suncom FZE”. Services in the framework of this Service are recognized as fully rendered from the moment of granting of the Virtual items.",
+      "11":"5.2. Taxes and accounting",
+      "12":"5.2.1. Activity of “Suncom FZE” in the places of the presence of the Service and service rendering fully corresponds to the tax requirements of the national legislation as well as mandatory requirements for the use of the control-cashier.",
+      "13":"5.2.2. In case of taxation of the rendered services and transmission of non-exclusive licenses on virtual currency and virtual items with VAT-tax in locations of the Service “Suncom FZE” takes solely all measures for calculation, VAT imposition and its payment to the appropriate budget according to the valid national legislation.",
+      "14":"5.3. Payment execution",
+      "15":"5.3.1. You agree to pay any payments and applicable taxes arising on your side or on the side of anyone who uses registered by you Profile.",
+      "16":"5.3.2. You agree o pay any commissions of banks and exterior payment services arising on your side and on the side of anyone who uses registered by you Profile.",
+      "17":"5.4. “Suncom FZE” can review the cost of the goods and services proposed via the Service anytime.",
+      "18":"5.5. YOU RECOGNIZE, THAT “SUNCOM FZE” US NOT OBLIGED TO GRANT INDEMNIFICATION UNDER ANY REASON AND YOU CANNOT RECEIVE MONEY OR ANY OTHER COMPENSATION FOR UNUSED VIRTUAL ITEMS. WHEN YOUR PROFILE IS CLOSED REGARDLESS THE FACT IF SUCH CLOSING WAS VOLUNTARY OR NOT."
+    },
+    "P6":{
+      "TITLE":"6. Updating of the Service",
+      "1":"You understand, that the Service is developing. “Suncom FZE” can require from us that you accepted updates of the Service. You recognize and agree that ‘Suncom FZE” can update the Service notifying you and without such notification. You probably will need from time to time to update software of the third parties in order to use the Service."
+    },
+    "P7":{
+      "TITLE":"7. Limitation of responsibility",
+      "1":"7.1. WITHOUT LIMITATION OF RESPONSIBILITY “SUNCOM FZE” ACCORDONG TO TITLE 7 BELOW THE SERVICE IS PROVIDED FOR YOUR USE “AS IT IS” AND “AS IY IS ACCESSIBLE” WITHOUT ANY DIRECT OR PRESUMED GUARANTEES INCLUDING WITHOUT LIMITATION GUARANTEES OF CORRESPONDENCE TO THE BUYER`S EXPECTATIONS, CORRESPONDENCE TO THE DETERMINED PURPOSE, TITLE, ABSENSE OF VIOLATIONS AS WELL AS THOSE GUARANTEES ARISING FROM BUSINESS USAGES OF “SUNCOM FZE” DOES NOT GUARANTEE THAT YOU WILL HAVE OPPORTUNITY OF ACCESS OR USE OF THE SERVICE ANYTIME OR AT ANY PLACE AT YOUR DISCRETION, THAT THE SERVICE WILL NOT BE INTERRUPTED AND WILL NOT CONTAIN MISTAKES, THAT DISADVANTAGES WILL BE CORRECTED. “SUNCOM FZE” IS NOT RESPONSIBLE FOR ANY INDERECT, PREDICTABLE IMPLICIT, PARTICULAR, PUNITIVE OR OTHER SIMILAR DAMAGES INCLUDING BUT NOT LIMITED BY THIS, LOSS OF INCOME, LOST PROFIT LOSS OF DATA OR INTERRUPTION OF BUSINESS OR OTHER NON-MATERIAL LOSSES (HOWEVER, SUCH LOSSES ARE QUALIFIED) ARISING ANYWAY IN CONNECTION WITH THE PRESENT USER AGREEMENT OR THE SERVICE ITSELF NOTWITHSTANDING THE FACT IF THEY ARISE FROM THE CONTRACT, DELICT OR ANY OTHER LEGAL CONCEPT AND NOTWITHSTANDING THE FACT IF IT WAS INFORMED BY “SUNCOM FZE” ABOUT OPPORTUNITY OF SUCH LOSSES. RESPONSIBILITY OF “SUNCOM FZE” IS LIMITED BY THE SIZE NOT EXCEEDING THE SUM YOU PAID TO “SUNCOM FZE” ON THE BASIS OF THE PRESENT USER AGREEMENT FOR THE PERIOD NOT EXCEEDING SIX (6) MONTHS PRECEDING THE DATE WHEN YOU DECLARED ABOUT YOUR LOSSES. YOU RECOGNIZE AND AGREE WITH THE FACT THAT IF YOU DID NOT PAY ANYTHING TO “SUNCOM FZE” DURING SUCH PERIOD OF TIME, YOUR UNIQUE REMEDY (AND UNIQUE RESPONSIBILITY OF “SUNCOM FZE”) IN CASE OF ANY DISPUTE WITH “SUNCOM FZE” IS TERMINATION OF THE USE OF THE SERVICE AND TERMINATION OF YOUR PROFILE",
+      "2":"7.2. Some jurisdictions do not allow exceptions of defined guarantees or limitation or exclusion of responsibility for defined types of losses. Accordingly, some above mentioned announcements about refusal from responsibility or its limitation can be applied to you. I those limits in which “Suncom FZE” because of the applicable law cannot refuse from responsibility or limit it as stipulated in the User Agreement. Responsibility of “Suncom FZE” is determined as minimum of such responsibility allowed according to such applicable law. PARTICULARLY, NOTHING IN THE PRESENT USER AGREEMENT INFLUENCES PRESUMED IMPERATIVE LEGAL PROVISIONS OF ANY CONSUMER ON EXCLUSION OR LIMITATION OF ANY RESPONSIBILITY FOR DEATH OR CAUSING OF PERSONAL HARM ARISING FROM ANY ACTION OF “SUNCOM FZE” WHICH IS COMMITTED RECKLESSLY OR CONSTITUTE FRAUD.",
+      "3":"7.3. Вы соглашаетесь возместить ущерб, защитить и обезопасить Suncom FZE от любого иска, требования, в том числе о возмещении ущерба или иных потерь, включая разумные адвокатские гонорары, заявленные любым третьим лицом и проистекающие из либо возникающие в связи с использованием вами Сервиса либо любым нарушением вами настоящего Пользовательского соглашения, однако вышесказанное не применяется, если нарушение прав не является следствием вашего умышленного или неосторожного поведения.You agree to indemnify damage, to protect and secure “Suncom FZE” from any legal action, demand including those of indemnification of losses, including reasonable attorney royalties declared by any third person and arising because of the use of the Service or any violation of the present User Agreement. However, above mentioned is not applied if violation of the rights is not result of your willful or reckless behavior.",
+      "4":"7.4 “Suncom FZE” is not responsible for the content of pages granted to the third parties and/or the content of exterior sites."
+    },
+    "P8":{
+      "TITLE":"8. Dispute resolution and applicable law",
+      "1":"8.1.  In case if between you and “Suncom FZE” arises a dispute, we recommend you to connect directly with us addressing to our support service via ",
+      "2":". If you are a resident of USA, the present User Agreement as well as any disputes arising in its connection are subject to regulation in all its aspects according to the law of California not taking into account collision provisions. You agree with the fact, that any demand or dispute which can be initiated against “Suncom FZE” is subject to exclusive jurisdiction of the court situated in San Francisсo, California.",
+      "3":"8.2. If you are a resident of another state, you agree, that any dispute between you and “Suncom FZE” is subject to regulation by the law of UAE without regard to collision norms. You agree, that any demand or dispute which can be initiated against “Suncom FZE” is subject to exclusive jurisdiction of the court situated in UAE."
+    },
+    "P9":{
+      "TITLE":"9. Severability",
+      "1":"9.1. You and “Suncom FZE” agree, that if any part of the present User Agreement or Policy of confidentiality of “Suncom FZE” is recognized by the competent court invalid or not entitled to protection fully or partially, only such part of the present User Agreement recognized invalid or not entitled to protection will be considered invalid in this jurisdiction only in that part In which it was recognized invalid and it will not influence validity or possibility of protection in any aspect and any jurisdiction of any parts of the present User Agreement which maintain its full force and validity."
+    },
+    "P10":{
+      "TITLE":"10. Other conditions",
+      "1":"10.1. Cession",
+      "2":"“Suncom FZE” can cede or transfer the User Agreement and/or the Policy of confidentiality of “Suncom FZE” fully or partially to any physical and legal person anytime with your consent or without any. You cannot cede or transmit any rights or obligations arising from the User Agreement or Policy of confidentiality without preliminary written consent of “Suncom FZE” and any cession or transmission of rights made by you without such consent will be invalid.",
+      "3":"10.2. Additional policies",
+      "4":"“Suncom FZE” can publish additional policies regarding to defined services such as forums, competitions loyalty campaigns. Your right to use such services is determined by such policies and the present User Agreement.",
+      "5":"10.3. Entire agreement",
+      "6":"The present User Agreement, any additional policies and any other documents directly included into it by means of the reference (including the Policy of confidentiality) contain completeness of arrangements between you and “Suncom FZE”, have priority and cancel all preceding arrangements of the parties regarding to the subject of the present User Agreement whether they were made by mail, orally or in written form or they are established by the custom, practice, policy or the precedent between us regarding the Service.",
+      "7":"10.4. Absence of refusal",
+      "8":"Inability from the part of “Suncom FZE” to demand and to force you to strict execution of any provision of the current User Agreement or Policy of confidentiality of “Suncom FZE” or inability to realize any right established by them cannot be interpreted as refusal or release of “Suncom FZE” from the right to affirm validity of such provision or the right or to rely on them in this and any other case.",
+      "9":"Direct refusal of “Suncom FZE” from any provision, condition or requirement of the present User Agreement or Policy of confidentiality of “Suncom FZE” does not form such refusal from any other obligation to observe such provision, condition or requirement.",
+      "10":"If other is not stipulated directly and effectively in the present User Agreement no announcements, pronouncements, consents, refusals or any other actions and assumptions of “Suncom FZE” cannot be interpreted as amendment of the present User Agreement as well as being legally binding except the cases when they are expressed in written form on the paper media with autograph signatures from your side and from the side of duly authorized functionary of “Suncom FZE”.",
+      "11":"10.5. Notifications",
+      "12":"We can notify you via posting of information on www.cases4real.com as well as by e-mail or any other method of communication according to contact information you provided. All notifications provided by you or required from your side on the basis of the present User Agreement or Policy of confidentiality should be made in written form and addressed to United Arab Emirates Ras At Khaimah AI-Jazeera AI-Hamra RAKIA Amenity center Tower 1 12 floor. Any of your notifications not corresponding to the present section of notifications do not have legal force.",
+      "13":"10.6. Just remedies",
+      "14":"You recognize, that defined by the User Agreement rights and obligations regarding to “Suncom FZE” in itself are unique and cannot be substituted by anything, its violation will cause irremediable harm to “Suncom FZE” which cannot be substituted by monetary indemnification. That is why “Suncom FZE” will have the right on the court order or another remedy according to the law of justice (without obligation of establishment of any provision, guarantee or confirmation of the damage) in case of any violation or refusal from execution from your side.",
+      "15":"You give irrevocable refusal to demand regulations or another remedy under the law of justice as well as imposition of prohibition or limitation on the Service, the use of any advertising or other materials issued for this purpose as well as from the use of the Service or any content or material which is used or reflected via the Service and agree to limit your requirements of indemnification of monetary damage limited by the section 7 (if there are any).",
+      "16":"10.7. Force-majeure",
+      "17":"“Suncom FZE” is not responsible for any delay or inability of execution of obligations caused by the reasons beyond the limits of reasonable control of “Suncom FZE” including without limitations any inability to execute obligations in case of unpredicted circumstances or the reasons beyond the control of “Suncom FZE” such as natural catastrophes, wars, terrorism, rebellions, embargo, actions of civil or military authorities, fires, floods, accidentsб strikes or l of resource starvation of transport infrastructure, fuel, energy, labor forces or materials."
+    }
+  }
+}

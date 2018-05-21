@@ -1,0 +1,20 @@
+.user-level{
+  position: relative;
+  color: $text__color_special;
+  &_vip{
+    .user-level__vip{
+      display: block;
+    }
+  }
+  &__vip{
+    position: absolute;
+    left: 15px;
+    top: 6px;
+    display: none;
+    width: 30px;
+    height: 25px;
+    &-elem{
+      stroke: $border__color_special;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.box-category {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 2px;
+  background: #2b2b32;
+  &::before {
+    //content: url(/assets/images/heading.png);
+    position: absolute;
+    left: 85px;
+    top: -5px;
+    z-index: 1;
+  }
+  &__name {
+    // position: relative;
+    // z-index: 1;
+  }
+  &__heading {
+    position: relative;
+    padding: 0 20px;
+    min-width: 180px;
+    line-height: 41px;
+    background-color: #21222d;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #b0b2c1;
+  }
+  &__info-icon {
+    position: absolute;
+    right: -16px;
+    top: 0px;
+  }
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding-top: 2px;
+  }
+  &_type {
+    &_power {
+      background-image: url(/assets/images/boxes/category/bg/power.png);
+    }
+    &_monster {
+      background-image: url(/assets/images/boxes/category/bg/monster.png);
+    }
+    &_season {
+      background-image: url(/assets/images/boxes/category/bg/season.png);
+    }
+    &_builds {
+      background-image: url(/assets/images/boxes/category/bg/builds.png);
+    }
+  }
+  &_length {
+    &_short {
+      .box {
+        margin: 0 15px;
+      }
+    }
+    &_long {
+      .box {
+        margin-right: 3px;
+      }
+    }
+  }
+}
+
+.box-category-triangle {
+  position: absolute;
+  top: 0;
+  width: 55px;
+  height: 41px;
+  &_left {
+    left: -55px;
+  }
+  &_right {
+    right: -55px;
+    transform: rotateY(180deg);
+  }
+  &__elem {
+    fill: #21222d;
+  }
+}

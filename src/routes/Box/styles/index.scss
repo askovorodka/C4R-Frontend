@@ -1,0 +1,80 @@
+.box-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  &__button {
+    margin-bottom: 35px;
+    border-top: 1px solid #ffdb80;
+    width: 345px;
+    height: 74px;
+    background-color: #ffbe1d;
+    font-size: 21px;
+    color: #1b1b27;
+    &_disable {
+      cursor: pointer;
+      pointer-events: none;
+    }
+  }
+  &__price {
+    margin-left: 5px;
+  }
+}
+
+@mixin loot-list__item($color) {
+  border-color: $color;
+  background: radial-gradient(closest-side, transparentize($color, .4), transparentize($color, .8) 20%, transparent 70%), #1a1b26;
+  background: {
+    position: -15px 5px;
+    size: 135% 210%;
+    repeat: no-repeat;
+  }
+  color: $color;
+}
+
+.loot-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 16px 22px 16px;
+  width: 1168px;
+  background-color: #2b2b32;
+  &__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    padding-top: 15px;
+    border-width: 2px;
+    border-style: solid;
+    width: 115px;
+    height: 100px;
+    &_quality {
+      &_BS {
+        @include loot-list__item(#9ea2b2);
+      }
+      &_WW {
+        @include loot-list__item(#6280f2);
+      }
+      &_FT {
+        @include loot-list__item(#4f85f2);
+      }
+      &_MW {
+        @include loot-list__item(#c022d3);
+      }
+      &_FN {
+        @include loot-list__item(#ba223b);
+      }
+    }
+  }
+  &__image {
+    max-width: 95px;
+    height: 60px;
+  }
+  &__name {
+    text-align: center;
+    font-size: 12px;
+  }
+  &__container-header {
+    margin-bottom: 12px;
+  }
+}

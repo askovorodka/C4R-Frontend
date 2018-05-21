@@ -1,0 +1,2 @@
+export const WS_CONNECT_ERROR = 'WS_CONNECT_ERROR'
+export const EVENT_NEW_DROP = 'EVENT_NEW_DROP'

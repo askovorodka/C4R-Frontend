@@ -1,0 +1,37 @@
+.root-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;  
+  background: {
+    color: #1a1b27;
+    image: url(/assets/images/bg/bg__home_left.jpg),
+    url(/assets/images/bg/bg__home_right.jpg);
+    repeat: no-repeat;
+    position: 100% 0, 0 0;
+  }
+  @media (max-width: 1700px){
+    background-position: 800px 0, 0 0;
+  }
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
+
+@font-face { 
+  font-family: 'Avenir';
+  src: url(/assets/fonts/avenir_regular.woff2) format('woff2'),
+  url('/assets/fonts/avenir_regular.woff') format('woff'),
+  url(/assets/fonts/avenir_regular.woff2) format('eot'),
+  url(/assets/fonts/avenir_regular.ttf) format('ttf'),
+  url(/assets/fonts/avenir_regular.svg) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+button {
+  border-radius: 0px;
+  outline: none;
+  cursor: pointer;
+}

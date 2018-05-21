@@ -1,0 +1,17 @@
+.policy{
+  width: 895px;
+  min-height: 400px;
+
+  &__title {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  &__paragraph {
+    font-family: 'Roboto', 'Avenir', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #b0b2c1;
+    margin: 15px 0;
+  }
+}

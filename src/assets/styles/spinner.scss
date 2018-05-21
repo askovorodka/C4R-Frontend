@@ -1,0 +1,27 @@
+@import './_vars.scss';
+@import './_animations.scss';
+@import './animate-scss/_properties.scss';
+@import './animate-scss/_bouncing-entrances/_bounceIn.scss';
+
+.spinner-component {
+  @include bounceIn();
+  vertical-align: middle;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  span {
+    display: inline-block;
+    margin-top: -32px;
+    margin-left: -32px;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: $gray-lightest;
+    border-top-color: $yellow;
+    animation: spin 1s linear infinite;
+    transform: translateZ(0);
+  }
+}
+

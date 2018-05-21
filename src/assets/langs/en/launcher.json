@@ -1,0 +1,34 @@
+{
+  "BANNERS": {
+    "WILL_END": "Until the end:"
+  },
+  "IMPORTANT": "Important",
+  "OFFERS": "Offers",
+  "NEWS": "News",
+  "READ_MORE": "Read more",
+  "ALL_NEWS": "All news",
+  "NEWS_CONTENT": {
+    "ALL_NEWS": "All news",
+    "READ_MORE": "Read more",
+    "COMMUNITY_LINK": "https://community-en.cases4real.com/"
+  },
+  "IMPORTANT_CONTENT": {
+    "ITEM1": "Sale 1",
+    "ITEM2": "Sale 2",
+    "ITEM3": "Sale 3"
+  },
+  "OFFERS_CONTENT": {
+    "ITEM1": {
+      "DESCRIPTION": "Unbelivable! Guns, grenades and all that",
+      "BUTTON_NAME": "Accept"
+    },
+    "ITEM2": {
+      "DESCRIPTION": "Unbelivable! Guns, grenades and all that",
+      "BUTTON_NAME": "Accept"
+    },
+    "ITEM3": {
+      "DESCRIPTION": "GO CS",
+      "BUTTON_NAME": "Nah I prefer DOTA"
+    }
+  }
+} 

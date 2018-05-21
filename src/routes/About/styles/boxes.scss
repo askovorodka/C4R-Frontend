@@ -1,0 +1,104 @@
+.boxes{
+  width: 895px;
+
+  &__description{
+    font-family: 'Roboto', 'Avenir', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #b0b2c1;
+
+    &-link{
+      color: #589ae5;
+    }
+
+    &:last-of-type{
+      margin: 25px 0;
+    }
+  }
+
+  &__grid{
+    margin-right: 9px;
+  }
+
+  .grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__item{
+      position: relative;
+      box-sizing: border-box;
+      width: 284px;
+      height: 284px;
+      margin: 9px 0;
+      text-align: center;
+      background: #2b2b32 url('/assets/images/about/heading.png') no-repeat 0 0;
+
+      &-caption{
+        position: relative;
+        display: block;
+        margin-top: 18px;
+        font-size: 14px;
+        line-height: 12px;
+        letter-spacing: 0.05em;
+        color: #b0b2c1;
+        text-transform: uppercase;
+        z-index: 1;
+      }
+
+      &-image{
+        width: 284px;
+        height: 253px;
+      }
+
+      &-hover{
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        width: 284px;
+        height: 284px;
+        border: 1px solid #36364e;
+        background: rgba(26, 27, 39, 0.9) url('/assets/images/about/heading.png') no-repeat -1px -1px;
+        opacity: 0;
+        z-index: 1;
+
+        &::after{
+          content: '';
+          position: absolute;
+          top: 12px;
+          right: 34px;
+          width: 10px;
+          height: 18px;
+          background: url('/assets/images/about/i-icon.png') no-repeat;
+        }
+
+        &-capt{
+          margin-left: 42px;
+          margin-top: 70px;
+          padding-right: 20px;
+          font-family: 'Avenir', 'Roboto', sans-serif;
+          font-size: 14px;
+          line-height: 22px;
+          letter-spacing: 0.05em;
+          color: #b0b2c1;
+          text-align: left;
+        }
+      }
+
+      &:hover .grid__item-hover{
+        opacity: 1;
+      }
+
+      &:last-child {
+        padding-top: 85px;
+        font-size: 24px;
+        line-height: 48px;
+        letter-spacing: 0.05em;
+        color: #ecdde0;
+        text-transform: uppercase;
+        background: transparent;
+      }
+    }
+  }
+}

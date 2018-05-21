@@ -1,0 +1,27 @@
+.live-drop {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 1200px;
+  height: 115px;
+  font-family: 'Roboto', 'Avenir', sans-serif;
+  &__tabs {
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 1px;
+    &-item {
+      width: 97px;
+      height: 37px;
+    }
+  }
+  &__content {
+    flex-grow: 1;
+    border-top: 1px solid #ffbe1d;
+    width: 1102px;
+    height: 114px;
+    background: rgba(43, 43, 50, 0.8);
+  }
+}

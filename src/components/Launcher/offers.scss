@@ -1,0 +1,58 @@
+.offers{
+  position: relative;
+  margin-top: 24px;
+  width: 640px;
+  &__item{
+    position: relative;
+    height: 240px;
+  }
+  &__img{
+    width: 100%;
+    height: 100%;
+  }
+  &__description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 100%;
+    height: 60px;
+    background-color: transparentize(#1a1b27, 0.4);    
+  } 
+  &__text{
+    font-size: .8em;
+    text-transform: uppercase;
+  }
+  &__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease;
+    box-sizing: border-box;
+    padding: 0 10px;
+    min-width: 150px;
+    min-height: 50px;
+    background-color: #ffbe1d;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    &:hover{
+      box-shadow: 0 0 2px 2px #ffbe1d;
+    }
+    &:active{
+      box-shadow: 0 0 2px 2px lighten(#ffbe1d, 30%);        
+    }
+  }
+  &__counter{
+    position: absolute;
+    left: 285px;
+    bottom: -3px;
+    button {
+      padding: 8px;      
+    }
+  }
+}

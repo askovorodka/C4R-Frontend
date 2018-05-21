@@ -1,0 +1,42 @@
+.achievement{
+  position: relative;
+  margin-right: 35px;
+  width: 250px;
+  &__icon{
+    margin: 20px 10px;
+    width: 55px;
+    height: 55px;
+    &-quest{
+      width: 55px;
+    }
+  }
+  &__btn{
+    margin: 20px 10px;
+    padding: 0;
+    height: 55px;
+    min-width: 55px;
+    width: 55px;
+    .btn-decor{
+      right: 2px;
+    }
+  }
+  &__heading{
+    margin-top: 10px;
+    border-bottom: 1px solid $border__color_main;
+  }
+  &__value{
+    position: absolute;
+    right: 0;
+    &_text{
+      bottom: 30%;
+      font-size: $text__size_max;
+    }
+    &_box{
+      bottom: 25%;
+      .box{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

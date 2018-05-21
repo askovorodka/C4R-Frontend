@@ -1,0 +1,9 @@
+.price {
+  display: flex;
+  align-items: center;
+  &__number {
+    margin-right: 0.3em;
+    white-space: nowrap;
+  }
+}
+

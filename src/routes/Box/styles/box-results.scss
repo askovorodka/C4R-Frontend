@@ -1,0 +1,211 @@
+
+.box-result {
+  .box-result-item {
+    margin-top: 4px;
+    background: url(http://localhost:3000/assets/images/boxes/open/box-result-image-background.png) no-repeat;
+    background-position: 465px 0px;
+    .box-result-header {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      width: 100%;
+      height: 40px;
+      &::after {
+        content: url(/assets/images/heading.png);
+        position: absolute;
+        top: -7px;
+      }
+      h1 {
+        font-family: 'Avenir';
+        position: relative;
+        padding: 0 20px;
+        min-width: 180px;
+        line-height: 45px;
+        background-color: #21222d;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 25px;
+      }
+    }
+    .box-result {
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 10px;
+      color: #b0b2c1;
+      font-size: 16px;
+      font-family: 'Avenir';
+      &__name {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      &__image-wrapper {
+        display: flex;
+        justify-content: center;
+        &__image {
+          height: 215px;
+        }
+      }
+      &__market-price {
+        font-size: 16px;
+        color: #7575b2;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 10px;
+        font-family: Avenir;
+        .price {
+          display: inline-block;
+        }
+      }
+      &__button-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      &__button_sell {
+        font-family: 'Avenir';
+        width: 275px;
+        height: 72px;
+        margin-right: 6px;
+        background-color: #ffbe1d;
+        color: #1b1b27;
+        font-size: 18px;
+        font-weight: bold;
+        border-top: 1px solid #ffe7ac;
+        .currency__symb {
+          stroke: #1b1b27;
+        }
+      }
+      &__button_take {
+        font-family: 'Avenir';
+        width: 275px;
+        height: 72px;
+        background-color: #31323c;
+        font-size: 16px;
+        font-weight: bold;
+        color: #cccdd5;
+        border-top: 1px solid #41424b;
+      }
+    }
+  }
+  .box-result-social {
+    margin-top: 10px;
+    &__header {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      width: 100%;
+      height: 40px;
+      &::after {
+        content: url(/assets/images/bg/heading-bg.png);
+        position: absolute;
+        top: -5px;
+      }
+      h2 {
+        margin-top: 15px;
+        color: #b0b2c1;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+    &__botton-wrapper {
+      margin-top: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    &__button {
+      width: 160px;
+      height: 60px;
+      text-transform: none;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      &_c4r {
+        background-color: #e2771a;
+        border-top: 1px solid #e58633;
+        justify-content: space-evenly;
+        margin-right: 10px;
+        &_icon {
+          background-image: url(/assets/images/icons/login/4real.svg);
+          width: 30px;
+          height: 30px;
+        }
+      }
+      &_vk {
+        background-color: #475370;
+        border-top: 1px solid #5b6680;
+        justify-content: space-evenly;
+        margin-right: 10px;
+        &_icon {
+          background-image: url(/assets/images/icons/login/vk.svg);
+          width: 30px;
+          height: 30px;
+        }
+      }
+      &_fb {
+        background-color: #3b5998;
+        border-top: 1px solid #516ba3;
+        justify-content: space-evenly;
+        &_icon {
+          background-image: url(/assets/images/icons/login/fb.svg);
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+  .box-result-open {
+    &__header {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      width: 100%;
+      height: 40px;
+      margin-top: 15px;
+      &::after {
+        content: url(/assets/images/bg/heading-bg.png);
+        position: absolute;
+        top: -5px;
+        transform: rotate(180deg);
+      }
+      &__heading {
+        color: #b0b2c1;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 20px;
+        display: flex;
+        text-transform: uppercase;
+        .price {
+          color: #fefefe;
+          font-weight: bold;
+        }
+        &_openMore {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+    &__wrapper {
+      width: 344px;
+      height: 75px;
+      background-color: #ffbe1d;
+      border-top: 1px solid #ffdb80;
+      border-bottom: 1px solid #b0851c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      font-size: 28px;
+      margin-top: 20px;
+      cursor: pointer;
+      &__link {
+        color: #1b1b27;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

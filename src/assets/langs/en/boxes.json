@@ -1,0 +1,71 @@
+{
+  "CATEGORY": {
+    "INFO": {
+      "POWER": "Information about the shelf. Pop. Information about the shelf. Pop. Information about the shelf. Pop. Information about the shelf. Popap."
+    },
+    "TYPE": {
+      "POWER": "Power cases",
+      "SECRET": "Secret cases",
+      "MONSTER": "Monster cases",
+      "NEW": "New cases",
+      "SEASON": "Hot october offers",
+      "SETS": "Common cases",
+      "BUILDS": "Exclusive cases",
+      "COLLECTIONS": "Collections"
+    }
+  },
+  "CATEGORY_LIST": {
+    "HEADING": "SELECT CASE"
+  },
+  "OPEN": {
+    "BUTTON_OPEN": "Open the case for",
+    "LOOT_LIST_HEADING": "case items",
+    "RESULT": {
+      "HEADING1": "congratulations!",
+      "YOUR_PRIZE": "Your prize",
+      "MARKET_PRICE": "MARKET PRICE:",
+      "SELL": "sell for",
+      "TAKE": "send to inventory",
+      "LEAVE_REVIEW": "Write a review and you`ll get lucky again!",
+      "ON_BALANCE": "YOUR BALANCE:",
+      "OPEN_MORE": "Open another one",
+      "OPEN": "open case",
+      "SOLD": "Item sold"
+    }
+  },
+  "SPECIAL_CASES": {
+    "ROOKIE": "Rookie",
+    "EXPERIENCED": "Experienced",
+    "MANIAC": "Maniac",
+    "CYBERGAMER": "CYBERGAMER",
+    "CHEATERS_CASE": "Cheater's case",
+    "GABEN": "Gaben",
+    "ITEMS_TO_INVENTORY": "All unsold skins are sent to inventory automatically",
+    "SELL_ALL": "sell all for",
+    "OPEN": "open for",
+    "OPEN_ANY": "Open again for"
+  },
+  "MONSTER": {
+    "COBRA": "cobra",
+    "SCORPION": "scorpion",
+    "VAMPIRE": "vampire bat",
+    "CTHULHU": "cthulhu",
+    "RAGNAROK": "ragnarok"
+  },
+  "FEEDBACK": {
+    "SEND_FEEDBACK": "Send review",
+    "FEEDBACK_HAS_BEEN_SENT": "Feedback has been sent",
+    "SEND": "Send"
+  },
+  "POWER": {
+    "HOMECOMING": "Homecoming",
+    "A_NEW_HOPE": "A new hope",
+    "JOKES_ON_YOU": "Jokes on you!"
+  },
+  "RANK": {
+    "CONGRATULATIONS": "Gongratulations",
+    "YOUR_RANK": "Your rank",
+    "NEXT_RANK": "Next rank",
+    "CONTINUE": "Continue"
+  }
+}

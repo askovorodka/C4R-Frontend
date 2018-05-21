@@ -1,0 +1,151 @@
+{
+  "LOGIN": "Login",
+  "ADD_FUNDS": "Add Funds",
+  "LOGIN_FOR_CONTINUE": "Login for continue",
+
+  "TICKER": {
+    "CASES": "Cases opened",
+    "USERS": "Users",
+    "ONLINE": "Online"
+  },
+
+  "SOCIAL_BUTTONS": {
+    "TEXT1": "Follow us on social media",
+    "TEXT2": "Get news and gifts from Cases4Real"
+  },
+
+  "INTRODUCTION": {
+    "SERVICE_INFO": {
+      "MAIN_HEADER": "CS:GO CASES",
+      "SECOND_HEADER": "You'd love to open",
+      "HEAD_REAL": "100% TRANSPARENCY",
+      "HEAD_DELIVERY": "24/7 INSTANT DELIVERY",
+      "HEAD_CASH_BACK": "CRAZY CASHBACK",
+      "TEXT_REAL": "We don't leave fake reviews about our site and don't make fake videos showing big money CS:GO weapon case drops.",
+      "TEXT_DELIVERY": "Seamless delivery automatically 30 seconds after purchase. Support is on call at Cases4Real.com in case of any issues.",
+      "TEXT_CASH_BACK": "Don't like what prize you got? Sell it back to us for way higher than on Steam.",
+      "IMG_CASH_BACK": "imgCashBack_en"
+    }
+  },
+
+  "USERCARD": {
+    "CHICKEN_LEFT": "Chicken Egg III",
+    "CHICKEN_RIGHT": "Chickem Egg IV",
+    "OPEN_CASE": "Open case (+1750ХР) 5 days ago",
+    "CONNECT": {
+      "VK": "Add Vkontakte account",
+      "FB": "Add Facebook account",
+      "STEAM": "Add Steam account"
+    }
+  },
+
+  "LIVE_DROP": {
+    "REVIEWS": {
+      "WON": "won",
+      "FROM": "from",
+      "AGO": "ago",
+      "DROP": "Item",
+      "CASES": "cases",
+      "DAYS": "days",
+      "HOURS": "hours",
+      "MINUTES": "minutes",
+      "SECONDS": "seconds"
+    }
+  },
+
+  "PAY_BOTTOM": {
+    "TEXT": "Let the luck be with you ;)"
+  },
+
+  "NAV": {
+    "ABOUT": "About",
+    "COMMUNITY": "Community",
+    "VIP_CLUB": "VIP Club",
+    "INVENTORY": "Inventory",
+    "HELP": "Help",
+    "PROFILE": "Profile",
+    "TRADE_URL": "Trade URL",
+    "LOGOUT": "Logout",
+    "TERMS_AND_CONDITIONS": "Terms and conditions",
+    "HOW_TO_PAY": "How to pay",
+    "POLICY": "Privacy policy",
+    "USER_REFUNDS": "User refunds",
+    "FAQ": "Faq",
+    "USER_AGREEMENT": "User agreement"
+  },
+
+  "PROFILE": {
+    "NAV": {
+      "INVENTORY": "items",
+      "HISTORY": "history"
+    },
+    "ACTIONS": {
+      "TO_INVENTORY": "Return to your inventory"
+    },
+    "BUTTONS": {
+      "SELL": "Sell selected items for",
+      "TAKE": "Accept"
+    },
+    "WARNINGS": {
+      "TRADE_URL": "Invalid trade link",
+      "TRADE_URL_LINK": "Enter your Trade URL here:"
+    },
+    "LINES":{
+      "CHOSEN": "the chosen"
+    }
+  },
+
+  "FOOTER": {
+    "FOOTER_HEADING": "Payment methods",
+    "WEB_MONEY": "Web money",
+    "QIWI": "Qiwi",
+    "VISA": "Visa",
+    "MASTER_CARD": "Master card",
+    "YANDEX": "Yandex",
+    "G2A": "G2A",
+    "RIGHTS": "© 4real Ltd. All rights reserved. All trademarks mentioned and referenced are registered and owned by the corresponding companies.",
+    "CONTACTS": "CONTACT US",
+    "OFFICIAL_DATA": "IBAN: AE540520002510921310039 Noor Bank, Building 1, Level 8, Emaar Square, Downtown Dubai, PO Box 8822, Dubai, United Arab Emirates."
+  },
+
+  "TRADE_URL": {
+    "HEADER_MESSAGE": "Enter your Steam trade URL",
+    "BOX_TOP_MESSAGE": "Attention! We will never ask you to change the link or give us your Steam account login or password. Do not trust scammers who pretend to be Cases4Real administrators and moderators!",
+    "BOX_LINK_MESSAGE": "Link to our account:",
+    "BOX_DANGER_MESSAGE": "ATTENTION! IF YOU DON’T ENTER THE TRADE URL FOR EXCHANGE CORRECTLY OUR BOT WILL NOT BE ABLE TO TRANSFER THE ITEMS YOU WON.",
+    "BUTTON": "Save trade url",
+    "GO_TO_STEAM_BUTTON": {
+      "PART1": "Confirm ",
+      "PART2": " steam account"
+    },
+    "HOW_TO_FIND": {
+      "HEADER": "How to find your trade url link",
+      "STEAM": "1. Directly in the Steam interface",
+      "BROWSER": "2. In Browser:",
+      "STEP1": "Log in to Steam at: ",
+      "STEP2": "Go to the link: ",
+      "STEP3": "Check if your inventory is open at: ",
+      "STEP4": "The interface is the same as in the client itself Steam",
+      "STEP5": "After adding a trade url, you need to make sure that your inventory is open, and the account does not have a ban on participating in transactions-exchanges",
+      "STEP6": "A 7-day ban on participation in the exchange is temporarily obtained by users who recently turned on or off the Steam Guard, as well as those who came from a new device",
+      "STEP7": "Be careful not to make a mistake! Incorrect link our system is simply not allowed, and everything else can be fixed at any time, and we will immediately send the item again. Unlike competitors, we provide constant support to users and help people honestly receive their prizes"
+    }
+  },
+  "ITEM_ERROR":{
+    "DECISION": "Make a Decision",
+    "SENDING": "Sending",
+    "DELIVERED": "Delivered",
+    "SOLD": "Sold",
+    "BOT_ERROR": "Error",
+    "OUT_OF_STOCK": "Out of stock",
+    "EXPIRED": "Trade offer expired",
+    "INVENTORY_CLOSED": "Inventory closed",
+    "TRADE_BAN": "Trade ban",
+    "SENT": "Sent",
+    "CANNOT_TRADE": "Trade ban",
+    "CONFIRMATION": "Verification",
+    "INVALID_TRADE_URL": "Invalid Trade URL",
+    "BLACK_LISTED": "Forbidden",
+    "BLOCKED": "Forbidden"
+  }
+}

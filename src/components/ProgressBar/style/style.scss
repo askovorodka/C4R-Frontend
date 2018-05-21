@@ -1,0 +1,109 @@
+.progress-bar-horizontal-component {
+  width: 1200px;
+  height: 40px;
+  background-color: #31323c;
+  border: 1px solid #36364e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &::after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    background-color: #31323c;
+    transform: rotate(45deg);
+    right: 20px;
+    top: -8px;
+  }
+  &__wrapper {
+    width: 1190px;
+    height: 30px;
+    background-color: #222436;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    .rang {
+      width: 200px;
+      height: 100%;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+      color: #b0b2c1;
+      &__prev {
+        position: absolute;
+        left: 20px;
+        justify-content: flex-start;
+        img {
+          margin-right: 10px;
+        }
+      }
+      &__next {
+        position: absolute;
+        right: 20px;
+        justify-content: flex-end;
+        p {
+          margin-right: 10px;
+        }
+      }
+    }
+    .experience {
+      font-size: 16px;
+      color: white;
+      position: absolute;
+      left: 50%;
+      margin-left: -40px;
+      z-index: 10;
+    }
+    .experience-progress {
+      height: 90%;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      &__current {
+        width: 50%;
+        height: 100%;
+        background-color: #5b5d64;
+        border-top: 1px solid #686a70;
+        animation: experience-progress-animation 2s ease-in-out;
+        animation-fill-mode: forwards;
+      }
+      .add-experience {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        animation: add-exp-animation 4s ease-in-out;
+        animation-fill-mode: forwards;
+        &__progress {
+          width: 100%;
+          display: flex;
+          height: 100%;
+          background-color: #ffbe1d;
+          border-top: 1px solid #ffc32f;
+          margin-right: 2px;
+        }
+        &__count-add {
+          width: 70px;
+          display: flex;
+          height: 100%;
+          align-items: center;
+          font-size: 14px;
+          color: #ffbe1d;
+          animation: add-count-animation 6s;
+          position: absolute;
+          right: -80px;
+          top: 0px;
+        }
+      }
+    }
+  }
+}

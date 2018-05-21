@@ -1,0 +1,132 @@
+.inventory-content {
+  width: 569px;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #36364e;
+    width: 545px;
+    height: 46px;
+  }
+  &__nav {
+    display: flex;
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #353741;
+    padding: 0 20px;
+    min-width: 80px;
+    height: 44px;
+    background-color: #21232e;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #b0b2c1;
+    &_active {
+      border-color: #ffdb80;
+      background-color: #ffbe21;    
+      color: #1b1b27;
+    }
+  }
+  &__action {
+    height: 100%;
+    background-color: transparent;
+    font-size: 12px;
+    color: #b0b2c1;
+    text-transform: none;
+  }
+  &__icon {
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+    &-elem {
+      stroke: #b0b2c1;
+      stroke-width: 1px;
+    }
+  }
+  &_selected {
+    width: 345px;
+    height: 382px;
+    .inventory-content {
+      &__header {
+        width: 320px;
+      }
+    }
+  }
+  &__heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffbe1d;
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10px;
+  }
+  &__button {
+    position: relative;
+    margin-bottom: 7px;
+    border-top: 1px solid #44444e;
+    padding: 0 40px;
+    width: 265px;
+    min-height: 55px;
+    background-color: #31323c;
+    font-size: 20px;
+    &_sell {
+      flex-direction: column;
+      border-color: #ffdb80;
+      background-color: #ffbe1d;
+      font-size: 14px;
+      color: #1b1b27;
+      .currency {
+        transform: scale(.7);
+        &__symb {
+          stroke: #1b1b27;
+          stroke-width: 1px;
+        }
+      }
+    }
+    &_warning {
+      pointer-events: none;
+      &::after {
+        content: url(/assets/images/icons/warning.png);
+        position: absolute;
+        right: 12px;
+        top: 5px;
+      }
+    }
+  }
+}
+.warning-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -570px;
+  bottom: -48px;
+  width: 875px;
+  height: 50px;
+  background-color: #fff;
+  font-size: 20px;
+  &::before {
+    content: '';
+    position: absolute;
+    right: 29px;
+    top: -6px;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    transform: rotate(45deg);
+  }
+  &__text {
+    margin-right: 5px;
+    color: #f40c39;
+  }
+  &__link {
+    color: #589ae5;
+    text-decoration: underline;
+  }
+}

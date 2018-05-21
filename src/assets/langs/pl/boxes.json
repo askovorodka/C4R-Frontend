@@ -1,0 +1,59 @@
+{
+  "CATEGORY": {
+    "INFO": {
+      "POWER": "Information about the shelf. Pop. Information about the shelf. Pop. Information about the shelf. Pop. Information about the shelf. Popap."
+    },
+    "TYPE": {
+      "POWER": "Mocne skrzynie",
+      "SECRET": "Tajne skrzynie",
+      "MONSTER": "Przypadki Monster",
+      "NEW": "Nowe skrzynie",
+      "SEASON": "Gorące oferty w październik",
+      "SETS": "Zwykłe skrzynie",
+      "BUILDS": "Skrzynie na wyłączność",
+      "COLLECTIONS": "Kolekcje"
+    }
+  },
+  "CATEGORY_LIST": {
+    "HEADING": "WYBIERZ SKRZYNIĘ"
+  },
+  "OPEN": {
+    "BUTTON_OPEN": "Otwórz skrzynię za",
+    "LOOT_LIST_HEADING": "Przedmioty w skrzyni",
+    "RESULT": {
+      "HEADING1": "GRATULACJE!",
+      "YOUR_PRIZE": "Twoja nagroda",
+      "MARKET_PRICE": "Cena rynkowa:",
+      "SELL": "Sprzedaj za",
+      "TAKE": "Wyślij do inwentarza",
+      "LEAVE_REVIEW": "Napisz ocenę, a znowu ci się poszczęści!",
+      "ON_BALANCE": "Twoje saldo:",
+      "OPEN_MORE": "Otwórz kolejną",
+      "OPEN": "Otwórz skrzynię",
+      "SOLD": "Item sold"
+    }
+  },
+  "SPECIAL_CASES": {
+    "ROOKIE": "Rookie",
+    "EXPERIENCED": "Experienced",
+    "MANIAC": "Maniac",
+    "CYBERGAMER": "CYBERGAMER",
+    "CHEATERS_CASE": "Cheater's case",
+    "GABEN": "Gaben",
+    "ITEMS_TO_INVENTORY": "Wszystkie niesprzedane skórki są automatycznie wysyłane do inwentarza",
+    "SELL_ALL": "sprzedaj wszystkie za",
+    "OPEN": "otwórz za",
+    "OPEN_ANY": "Otwórz kolejną za"
+  },
+  "FEEDBACK": {
+    "SEND_FEEDBACK": "Send review",
+    "FEEDBACK_HAS_BEEN_SENT": "Feedback has been sent",
+    "SEND": "Send"
+  },
+  "RANK": {
+    "CONGRATULATIONS": "Gratulacje",
+    "YOUR_RANK": "Twoja ranga",
+    "NEXT_RANK": "Następna ranga",
+    "CONTINUE": "Dalej"
+  }
+}

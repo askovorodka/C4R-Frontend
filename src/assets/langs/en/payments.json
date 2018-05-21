@@ -1,0 +1,16 @@
+{
+  "WILL_PAY": "Pay",
+  "WILL_GET": "Get",
+  "METHODS_LIST": "You can add funds with",
+  "USED_COUPON": "Used coupon",
+  "SELECT_AMOUNT": "Select amount",
+  "ADD_FUNDS": "Add funds",
+  "PLEASE_CONFIRM_AGREEMENT": "Please accept the User Agreement and Privacy Policy",
+  "COUPON_ACTIVATION": "Coupon activation",
+  "USE_CODE": "Use code",
+  "PAY_WITH_SKINS": "Pay with skins",
+  "ENTER_COUPON_CODE": "Enter coupon’s code",
+  "APPLY": "Apply",
+  "HAVE_READ_AND_ACCEPT": "I have <a href='https://cases4real.com/tos' target='_blank'>read and accept</a> terms of service",
+  "FOLLOW_PAYMENT": "Pay with cash"
+}

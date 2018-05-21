@@ -1,0 +1,104 @@
+.quests{
+  &__category{
+    @include flex(flex-start, flex-start, row);
+    margin-bottom: 2px;
+  }
+  &__container{
+    @include flex(flex-start, space-around);
+    flex-grow: 1;
+  }
+  &__heading{
+    position: relative;
+    border-bottom: 1px solid $border__color_main;
+    padding: 12px;
+    color: $text__color_important;
+  }
+  &__info-icon{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+  }
+  &__theme{
+    position: relative;
+    margin:{
+      right: 25px;
+      bottom: 13px;
+    }
+    &-img{
+      padding:{
+        left: 90px;
+        top: 95px;
+        bottom: 15px;
+      }
+      width: 95px;
+      height: 100px;
+      &-elem{
+        stroke: $border__color_main;
+        transform: scale(3.5);
+      }
+    }
+    &-name{
+      position: absolute;
+      font-size: $text__size_max;
+      color: $text__color_border-hover;
+      &_pos{
+        &_top{
+          right: 105px;
+          top: 140px;
+        }
+        &_bottom{
+          left: 143px;
+          bottom: 80px;
+        }
+      }
+    }
+  }
+  &__progress{
+    position: absolute;
+    left: 13px;
+    top: 62px;
+    color: $text__color_border-hover;
+    &-text{
+      margin-right: 10px;
+    }
+    &-done{
+      color: $text__color_special;
+    }   
+  }
+  &__stat{
+    @include flex(center, space-around);
+    margin-left: 10px;
+  }
+  &__btn{
+    margin-right: 10px;
+    padding: 0;
+    min-width: 60px;
+    width: 60px;
+    height: 60px;
+    .btn-decor{
+      right: 3px;
+    }
+    &-img{
+      width: 100%;
+    }
+  }
+  &__quest-item{
+    margin:{
+      top: 13px; 
+      right: 21px;
+      bottom: 13px;
+    }    
+  }
+  &__link{
+    transition: all .2s ease;
+    align-self: center;
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.3em;
+    color: $text__color_border-hover;
+    &:hover{
+      color: $text__color_main;
+    }
+  }
+}

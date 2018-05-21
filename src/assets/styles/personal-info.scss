@@ -1,0 +1,33 @@
+.content__personal-info {
+  button {
+    color: $text__color_button;
+    width: 165px;
+    height: 40px;
+    background: $bg__color_button;
+    border-top: 1px solid $border__color_button;
+  }
+  button[disabled] {
+    color: $text__color_button-inactive;
+  }
+  input {
+    @include placeholder(#4f4f5f);
+    color: #b0b2c1;
+    background: #171825;
+    border-radius: 0;
+    border-bottom: 1px solid #2c2d39;
+    outline: none;
+    width: 220px;
+    height: 40px;
+    margin-right: 10px;
+    box-sizing: border-box;
+  }
+  input.valid {
+    border: 1px solid #4d9030;
+  }
+  input.invalid {
+    border: 1px solid #be4b63;
+    color: #be4b63;
+  }
+}
+
+

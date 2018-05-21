@@ -1,0 +1,34 @@
+{
+  "BANNERS": {
+    "WILL_END": "Até o fim:"
+  },
+  "NEWS": "Notícias",
+  "IMPORTANT": "Importante",
+  "OFFERS": "Oferta",
+  "READ_MORE": "Ler mais",
+  "ALL_NEWS": "Todas as notícias",
+  "NEWS_CONTENT": {
+    "ALL_NEWS": "Todas as notícias",
+    "READ_MORE": "Ler mais",
+    "COMMUNITY_LINK": "https://community-en.cases4real.com/"
+  },
+  "IMPORTANT_CONTENT": {
+    "ITEM1": "Liquidação 1",
+    "ITEM2": "Liquidação 2",
+    "ITEM3": "Liquidação 3"
+  },
+  "OFFERS_CONTENT": {
+    "ITEM1": {
+      "DESCRIPTION": "Inacreditável! Armas, granadas e tudo o mais!",
+      "BUTTON_NAME": "Aceitar"
+    },
+    "ITEM2": {
+      "DESCRIPTION": "Inacreditável! Armas, granadas e tudo o mais!",
+      "BUTTON_NAME": "Aceitar"
+    },
+    "ITEM3": {
+      "DESCRIPTION": "Ir para CS",
+      "BUTTON_NAME": "Prefiro DOTA"
+    }
+  }
+}

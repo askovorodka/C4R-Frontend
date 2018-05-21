@@ -1,0 +1,109 @@
+.case-roll{
+  &_top-btns{
+    display: flex;
+    position: absolute;
+    top: -45px;
+    right: 240px;
+    z-index: 5;
+    &_audio-changer{
+      &-inactive:hover{
+        opacity: 0.5;
+      }
+      &-inactive rect{
+        opacity: 0;
+      }
+    }
+    div{
+      margin: 0 10px;
+      transition: opacity 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+    svg{
+      height: 26px;
+      rect{
+        transition: all 0.3s ease;
+      }
+      *{
+        fill: #bbced9;
+      }
+    }
+  }
+  &-pop_info-anim{
+    display: block;
+    top: -17px;
+    left: -10px;
+    background-color: #fff;
+    box-shadow: 0 0 4px 2px rgba(#fff, 0.8);
+    transform-origin: 13px;
+    width: 2px;
+    height: 2px;
+    animation: animationInfo 3s linear infinite;
+    @keyframes animationInfo{
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .snake &{
+    &_top-btns{
+      top: -131px;
+      right: 160px;
+      svg *{
+        fill: #55c344;
+      }
+    }
+    &pop_info-anim{
+      display: block;
+      top: -17px;
+      left: -10px;
+      background-color: #f2f3f1;
+      box-shadow: 0 0 4px 2px rgba(#f2f3f1, 0.8);
+    }
+  }
+
+  .ragnarok &{
+    &_top-btns{
+      top: -45px;
+      svg *{
+        fill: #3b7492;
+      }
+    }
+  }
+
+  .scorpion &{
+    &_top-btns{
+      top: -130px;
+      svg *{
+        fill: #fe302e;
+      }
+    }
+    &pop_info-anim{
+      display: block;
+      top: -17px;
+      left: -10px;
+      background-color: #fff;
+      box-shadow: 0 0 4px 2px rgba(#fff, 0.8);
+    }
+  }
+
+  .vampire &{
+    &_top-btns{
+      top: -45px;
+      right: 230px;
+      svg *{
+        fill: #bbced9;
+      }
+    }
+    &pop_info-anim{
+      display: block;
+      top: -17px;
+      left: -10px;
+      background-color: #fff;
+      box-shadow: 0 0 4px 2px rgba(#fff, 0.8);
+    }
+  }
+}

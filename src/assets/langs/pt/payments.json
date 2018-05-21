@@ -1,0 +1,16 @@
+{
+  "WILL_PAY": "Pagar",
+  "WILL_GET": "Receber",
+  "METHODS_LIST": "Você pode adicionar fundos com",
+  "USED_COUPON": "Cupom usado",
+  "SELECT_AMOUNT": "Selecione a quantidade",
+  "ADD_FUNDS": "adicionar fundos",
+  "PLEASE_CONFIRM_AGREEMENT": "Aceite o Acordo do usuário e a Política de privacidade",
+  "COUPON_ACTIVATION": "Ativação de cupom",
+  "USE_CODE": "Ativar CUPOM",
+  "PAY_WITH_SKINS": "ADICIONAR SKINS",
+  "ENTER_COUPON_CODE": "Insira o código do cupom",
+  "APPLY": "Aplicar",
+  "HAVE_READ_AND_ACCEPT": "Li e aceito os <a href='https://cases4real.com/tos' target='_blank'>Termos de serviço</a>",
+  "FOLLOW_PAYMENT": "Pagar com dinheiro"
+}

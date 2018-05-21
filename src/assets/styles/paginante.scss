@@ -1,0 +1,27 @@
+.paginate{
+  @include flex(center);
+  max-width: 300px;
+  &__switcher{
+    position: relative;
+    height: 100%;
+  }
+  &__switch{
+    display: block;
+    width: 40px;
+    height: 40px;
+    &_dir{
+      &_back{
+        transform: rotate(90deg);
+      }
+      &_next{
+        transform: rotate(-90deg);        
+      }
+    }
+  }
+  &__item{
+    @include flex(center, center);
+    width: 40px;
+    height: 40px;
+    color: $text__color_main;
+  }
+}

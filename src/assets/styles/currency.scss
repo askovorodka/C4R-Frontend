@@ -1,0 +1,13 @@
+.currency{
+  width: 14px;
+  height: 18px;
+  // transform: scale(0.7);
+  &__symb{
+    transition: all .2s ease;
+    width: 100%;
+    height: 100%;
+    stroke-width: 2px;
+    /*stroke: $text__color_main: */
+    fill: $text__color_main;
+  }
+}

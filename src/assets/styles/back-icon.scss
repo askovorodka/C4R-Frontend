@@ -1,0 +1,15 @@
+.back-icon{
+  width: 20px;
+  height: 25px;
+  cursor: pointer;
+  &__elem{
+    transition: all .2s ease;
+    stroke: $border__color_neutral;
+    stroke-width: 1px;
+  }
+  &:hover{
+    .back-icon__elem{
+      stroke: $border__color_hover-bright;
+    }
+  }
+}
